@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DulceFinder</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <img
+          src="{{ url_for('static', filename='img/logo.png') }}"
+          alt="Logo"
+          class="logo"
+        />
+        <img
+          src="{{ url_for('static', filename='img/title.png') }}"
+          alt="Dulce Finder"
+          class="title"
+        />
+      </header>
+      <form action="/buscar" method="post" class="search-form">
+        <input
+          type="text"
+          name="consulta"
+          placeholder="¿Qué estás buscando?"
+          required
+        />
+        <div class="language">
+          <select name="idioma" class="language-select">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+            <option value="pt">Português</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+          </select>
+        </div>
+
+        <button type="submit">
+          <img
+            src="{{ url_for('static', filename='icon/search.svg') }}"
+            alt="Buscar"
+          />
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
