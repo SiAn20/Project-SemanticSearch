@@ -34,7 +34,7 @@ header {
 .search-form {
   display: flex;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.8); /* blanco con 20% opacidad */
+  background-color: rgba(255, 255, 255, 0.8);
   border: 2px solid #7c4a3b;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
@@ -43,7 +43,7 @@ header {
 .search-form input[type="text"] {
   border: none;
   outline: none;
-  background-color: transparent; /* blanco con 20% opacidad */
+  background-color: transparent;
   padding: 12px;
   font-size: 14px;
   width: 700px;
