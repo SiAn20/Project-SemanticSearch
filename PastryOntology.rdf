@@ -1,0 +1,1756 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7/"
+     xml:base="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-7="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingredientes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingredientes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#herramienta_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#herramienta_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Preparacion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#herramientas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#herramientas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Preparacion"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#preparacion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#preparacion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Preparacion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#preparacion_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#preparacion_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Preparacion"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Crocancia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Crocancia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Galleta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#MetodoCoccion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#MetodoCoccion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#aromas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#aromas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#artesanal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#artesanal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#base -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#base">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Helado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#cantidadCapas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#cantidadCapas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Laminada"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#cantidadLevadura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#cantidadLevadura">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Pan"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#cobertura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#cobertura">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Torta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#colageno -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#colageno">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Animal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#concentracionAzucar -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#concentracionAzucar">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Confitada"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#consumo_temporada -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#consumo_temporada"/>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#contenidoAzucar -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#contenidoAzucar">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Helado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#contenidoFibra -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#contenidoFibra">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Pan"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#contenidoGraso -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#contenidoGraso">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#contenidoProteico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#contenidoProteico">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#dificultad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#dificultad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Preparacion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#esAptoParaDiabeticos -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#esAptoParaDiabeticos">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Reposteria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#forma -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#forma">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Moldeado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#formaGalleta -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#formaGalleta">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Galleta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#fuenteCalor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#fuenteCalor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Coccion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#gluten -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#gluten">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Vegetal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#grasas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#grasas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#grosorCapa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#grosorCapa">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Laminada"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#humedadRelativa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#humedadRelativa">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Refrigerada"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#inclusionTrozos -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#inclusionTrozos">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Helado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#longitudHoja -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#longitudHoja">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Corte"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#manual -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#manual">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Laminada"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#marca -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#marca">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#margenError -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#margenError">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Medicion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#material -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#material">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#materialMalla -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#materialMalla">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Colado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#metodoEnfriado -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#metodoEnfriado">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Enfriado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#nivelCremosidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#nivelCremosidad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Helado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#nivelDetalle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#nivelDetalle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Decoracion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#nivelHumedad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#nivelHumedad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Torta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#nivelMaduracion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#nivelMaduracion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Vegetal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#nombre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#nombre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#nombreIngrediente -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#nombreIngrediente">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#nombrePreparación -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#nombrePreparación">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Preparacion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#nombreProducto -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#nombreProducto">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#origen -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#origen">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Vegetal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#parte -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#parte">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Animal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#porcentajeGrasa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#porcentajeGrasa">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Animal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#precesoConservacion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#precesoConservacion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#precision -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#precision">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Medicion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#proteina -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#proteina">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#puede_ser_alergico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#puede_ser_alergico">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#relleno -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#relleno">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Torta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#resistenciaAltasTemperaturas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#resistenciaAltasTemperaturas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Moldeado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#sabor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#sabor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tamaño -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tamaño">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Moldeado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tamañoMalla -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tamañoMalla">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Colado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tamañoMezclador -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tamañoMezclador">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Mezclado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tamañoTorta -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tamañoTorta">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Torta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tecnicaAplicada -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tecnicaAplicada">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Decoracion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#temperaturaAceite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#temperaturaAceite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Frita"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#temperaturaHorno -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#temperaturaHorno">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horneada"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#temperaturaRefrigeración -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#temperaturaRefrigeración">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Refrigerada"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#textura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#textura">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Galleta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tiempo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tiempo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Preparacion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tiempoConservación -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tiempoConservación">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Refrigerada"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoAceiteUtilizado -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoAceiteUtilizado">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Frita"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoBizcocho -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoBizcocho">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Torta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoCrianza -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoCrianza">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Animal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoCristalizacion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoCristalizacion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Confitada"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoCultivo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoCultivo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Vegetal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoDecoracion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoDecoracion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Decoracion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoFermentación -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoFermentación">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Pan"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoFilo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoFilo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Corte"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoMecanismo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoMecanismo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Mezclado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoMiga -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#tipoMiga">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Pan"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#ubicacion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#ubicacion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#sucursal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidadContenido -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidadContenido">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidadGrasas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidadGrasas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidadMedida -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidadMedida">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Medicion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidadProteina -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidadProteina">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidadTamañoTorta -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidadTamañoTorta">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Torta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidad_tamaño_moldeado -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidad_tamaño_moldeado">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidad_temperatura_horno -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidad_temperatura_horno">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horneada"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidad_tiempo_horneado -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidad_tiempo_horneado">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horneada"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidad_vida_util -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#unidad_vida_util">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#uso -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#uso">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#velocidadEnfriamiento -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#velocidadEnfriamiento">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Enfriado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#vidaUtil -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#vidaUtil">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Animal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Coccion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Coccion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Colado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Colado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Confitada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Confitada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Preparacion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Corte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Corte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Decoracion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Decoracion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Enfriado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Enfriado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Frita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Frita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Preparacion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Galleta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Galleta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Helado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Helado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Reposteria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horneada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horneada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Preparacion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Reposteria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Laminada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Laminada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Preparacion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Medicion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Medicion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Mezclado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Mezclado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Moldeado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Moldeado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Herramienta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Pan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Pan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Preparacion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Preparacion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Reposteria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Reposteria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Refrigerada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Refrigerada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Preparacion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Reposteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Reposteria"/>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Torta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Torta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Producto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Vegetal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Vegetal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Ingrediente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#sucursal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#sucursal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Reposteria"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Almendras -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Almendras">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Pan"/>
+        <untitled-ontology-7:aromas>almendra tostada</untitled-ontology-7:aromas>
+        <untitled-ontology-7:cobertura>almendras</untitled-ontology-7:cobertura>
+        <untitled-ontology-7:esAptoParaDiabeticos rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:esAptoParaDiabeticos>
+        <untitled-ontology-7:gluten>no</untitled-ontology-7:gluten>
+        <untitled-ontology-7:grasas rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</untitled-ontology-7:grasas>
+        <untitled-ontology-7:grasas rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</untitled-ontology-7:grasas>
+        <untitled-ontology-7:humedadRelativa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</untitled-ontology-7:humedadRelativa>
+        <untitled-ontology-7:nombreProducto>Pan de almendras</untitled-ontology-7:nombreProducto>
+        <untitled-ontology-7:tamaño rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.0</untitled-ontology-7:tamaño>
+        <untitled-ontology-7:unidadContenido>g/ 60g</untitled-ontology-7:unidadContenido>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Almendras_Y_Cacao -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Almendras_Y_Cacao">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Galleta"/>
+        <untitled-ontology-7:cobertura>Almendras</untitled-ontology-7:cobertura>
+        <untitled-ontology-7:esAptoParaDiabeticos rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:esAptoParaDiabeticos>
+        <untitled-ontology-7:grasas rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</untitled-ontology-7:grasas>
+        <untitled-ontology-7:nombreProducto>Galleta de almendra y cacao</untitled-ontology-7:nombreProducto>
+        <untitled-ontology-7:puede_ser_alergico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:puede_ser_alergico>
+        <untitled-ontology-7:tamaño rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.3</untitled-ontology-7:tamaño>
+        <untitled-ontology-7:unidadContenido>g/15g</untitled-ontology-7:unidadContenido>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Batido_y_horneado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Batido_y_horneado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horneada"/>
+        <untitled-ontology-7:herramientas rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Batidora"/>
+        <untitled-ontology-7:herramientas rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horno"/>
+        <untitled-ontology-7:preparacion_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Brownie"/>
+        <untitled-ontology-7:preparacion_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Macarons"/>
+        <untitled-ontology-7:dificultad>Media</untitled-ontology-7:dificultad>
+        <untitled-ontology-7:nombrePreparación>Batido y horneado</untitled-ontology-7:nombrePreparación>
+        <untitled-ontology-7:temperaturaHorno rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</untitled-ontology-7:temperaturaHorno>
+        <untitled-ontology-7:tiempo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</untitled-ontology-7:tiempo>
+        <untitled-ontology-7:unidad_temperatura_horno>centigrados</untitled-ontology-7:unidad_temperatura_horno>
+        <untitled-ontology-7:unidad_tiempo_horneado>minutos</untitled-ontology-7:unidad_tiempo_horneado>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Batidora -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Batidora">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Mezclado"/>
+        <untitled-ontology-7:herramienta_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Batido_y_horneado"/>
+        <untitled-ontology-7:herramienta_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Fritura_masas"/>
+        <untitled-ontology-7:herramienta_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Mezcla_congelada_batida"/>
+        <untitled-ontology-7:marca>Happy Kitchen</untitled-ontology-7:marca>
+        <untitled-ontology-7:material>Acero inoxidable</untitled-ontology-7:material>
+        <untitled-ontology-7:nombre>Batidora</untitled-ontology-7:nombre>
+        <untitled-ontology-7:tamañoMezclador>20.5</untitled-ontology-7:tamañoMezclador>
+        <untitled-ontology-7:tipoMecanismo>Electrico</untitled-ontology-7:tipoMecanismo>
+        <untitled-ontology-7:uso>Mezclar ingredientes</untitled-ontology-7:uso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Bizcochuelo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Bizcochuelo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Torta"/>
+        <untitled-ontology-7:Ingredientes rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Huevo"/>
+        <untitled-ontology-7:Ingredientes rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Mantequilla"/>
+        <untitled-ontology-7:preparacion rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Batido_y_horneado"/>
+        <untitled-ontology-7:aromas>huevo, vainilla, mantequilla ligera</untitled-ontology-7:aromas>
+        <untitled-ontology-7:artesanal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:artesanal>
+        <untitled-ontology-7:cobertura>sin cobertura</untitled-ontology-7:cobertura>
+        <untitled-ontology-7:grasas rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</untitled-ontology-7:grasas>
+        <untitled-ontology-7:nivelHumedad>medio</untitled-ontology-7:nivelHumedad>
+        <untitled-ontology-7:nombreProducto>Bizcochuelo</untitled-ontology-7:nombreProducto>
+        <untitled-ontology-7:proteina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</untitled-ontology-7:proteina>
+        <untitled-ontology-7:tamañoTorta rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.0</untitled-ontology-7:tamañoTorta>
+        <untitled-ontology-7:tipoBizcocho>esponjoso</untitled-ontology-7:tipoBizcocho>
+        <untitled-ontology-7:unidadGrasas>g</untitled-ontology-7:unidadGrasas>
+        <untitled-ontology-7:unidadProteina rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g</untitled-ontology-7:unidadProteina>
+        <untitled-ontology-7:unidadTamañoTorta>centímetros</untitled-ontology-7:unidadTamañoTorta>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Brownie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Brownie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Torta"/>
+        <untitled-ontology-7:Ingredientes rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Cacao"/>
+        <untitled-ontology-7:Ingredientes rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Mantequilla"/>
+        <untitled-ontology-7:preparacion rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Batido_y_horneado"/>
+        <untitled-ontology-7:preparacion rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horneado_tradicional"/>
+        <untitled-ontology-7:aromas>Chocolate</untitled-ontology-7:aromas>
+        <untitled-ontology-7:artesanal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:artesanal>
+        <untitled-ontology-7:cobertura>Chocolate derretido</untitled-ontology-7:cobertura>
+        <untitled-ontology-7:esAptoParaDiabeticos rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:esAptoParaDiabeticos>
+        <untitled-ontology-7:grasas rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.0</untitled-ontology-7:grasas>
+        <untitled-ontology-7:nivelHumedad>Humedo</untitled-ontology-7:nivelHumedad>
+        <untitled-ontology-7:nombreProducto>Brownie de chocolate</untitled-ontology-7:nombreProducto>
+        <untitled-ontology-7:proteina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</untitled-ontology-7:proteina>
+        <untitled-ontology-7:relleno>Dulce de leche</untitled-ontology-7:relleno>
+        <untitled-ontology-7:tamañoTorta rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0</untitled-ontology-7:tamañoTorta>
+        <untitled-ontology-7:tipoBizcocho>Esponjoso</untitled-ontology-7:tipoBizcocho>
+        <untitled-ontology-7:unidadGrasas>unidadGrasas
+g/100g</untitled-ontology-7:unidadGrasas>
+        <untitled-ontology-7:unidadProteina>g/100g</untitled-ontology-7:unidadProteina>
+        <untitled-ontology-7:unidadTamañoTorta>cm</untitled-ontology-7:unidadTamañoTorta>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Cacao -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Cacao">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Vegetal"/>
+        <untitled-ontology-7:Ingrediente_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Brownie"/>
+        <untitled-ontology-7:contenidoGraso rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</untitled-ontology-7:contenidoGraso>
+        <untitled-ontology-7:contenidoProteico rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</untitled-ontology-7:contenidoProteico>
+        <untitled-ontology-7:gluten>no</untitled-ontology-7:gluten>
+        <untitled-ontology-7:nivelMaduracion>Maduro</untitled-ontology-7:nivelMaduracion>
+        <untitled-ontology-7:nombreIngrediente>Cacao</untitled-ontology-7:nombreIngrediente>
+        <untitled-ontology-7:origen>Theobroma cacao</untitled-ontology-7:origen>
+        <untitled-ontology-7:precesoConservacion>Ambiente seco</untitled-ontology-7:precesoConservacion>
+        <untitled-ontology-7:sabor>Amargo</untitled-ontology-7:sabor>
+        <untitled-ontology-7:tipoCultivo>Convencional</untitled-ontology-7:tipoCultivo>
+        <untitled-ontology-7:unidadContenido>g/100g</untitled-ontology-7:unidadContenido>
+        <untitled-ontology-7:unidad_vida_util>años</untitled-ontology-7:unidad_vida_util>
+        <untitled-ontology-7:vidaUtil rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</untitled-ontology-7:vidaUtil>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Chia_Y_Linaza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Chia_Y_Linaza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Galleta"/>
+        <untitled-ontology-7:aromas>coco</untitled-ontology-7:aromas>
+        <untitled-ontology-7:aromas rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</untitled-ontology-7:aromas>
+        <untitled-ontology-7:cobertura>chia</untitled-ontology-7:cobertura>
+        <untitled-ontology-7:esAptoParaDiabeticos rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:esAptoParaDiabeticos>
+        <untitled-ontology-7:grasas>omega-3</untitled-ontology-7:grasas>
+        <untitled-ontology-7:nombreProducto>Galleta de chia y linaza</untitled-ontology-7:nombreProducto>
+        <untitled-ontology-7:puede_ser_alergico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:puede_ser_alergico>
+        <untitled-ontology-7:relleno>almendras</untitled-ontology-7:relleno>
+        <untitled-ontology-7:tamaño rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</untitled-ontology-7:tamaño>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#ChocoFit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#ChocoFit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Torta"/>
+        <untitled-ontology-7:cobertura>Chocolate amargo</untitled-ontology-7:cobertura>
+        <untitled-ontology-7:esAptoParaDiabeticos rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:esAptoParaDiabeticos>
+        <untitled-ontology-7:grasas rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.0</untitled-ontology-7:grasas>
+        <untitled-ontology-7:humedadRelativa>15%</untitled-ontology-7:humedadRelativa>
+        <untitled-ontology-7:nombreProducto>ChocoFit</untitled-ontology-7:nombreProducto>
+        <untitled-ontology-7:tamaño rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0</untitled-ontology-7:tamaño>
+        <untitled-ontology-7:unidadContenido>g/25g</untitled-ontology-7:unidadContenido>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Coco_Light -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Coco_Light">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Helado"/>
+        <untitled-ontology-7:Ingredientes rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Leche_vegetal"/>
+        <untitled-ontology-7:preparacion rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Mezcla_congelada_batida"/>
+        <untitled-ontology-7:aromas>Coco natural y Vainilla suave</untitled-ontology-7:aromas>
+        <untitled-ontology-7:artesanal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:artesanal>
+        <untitled-ontology-7:base>Vegetal</untitled-ontology-7:base>
+        <untitled-ontology-7:contenidoAzucar rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.2</untitled-ontology-7:contenidoAzucar>
+        <untitled-ontology-7:esAptoParaDiabeticos rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:esAptoParaDiabeticos>
+        <untitled-ontology-7:grasas rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</untitled-ontology-7:grasas>
+        <untitled-ontology-7:inclusionTrozos rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:inclusionTrozos>
+        <untitled-ontology-7:nivelCremosidad>Medio</untitled-ontology-7:nivelCremosidad>
+        <untitled-ontology-7:nombreProducto>Helaco coco Light</untitled-ontology-7:nombreProducto>
+        <untitled-ontology-7:proteina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.9</untitled-ontology-7:proteina>
+        <untitled-ontology-7:unidadGrasas>g por 100g</untitled-ontology-7:unidadGrasas>
+        <untitled-ontology-7:unidadProteina>g por 100g</untitled-ontology-7:unidadProteina>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Colador -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Colador">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Colado"/>
+        <untitled-ontology-7:herramienta_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Confitado_almibar"/>
+        <untitled-ontology-7:marca>Cuisinart</untitled-ontology-7:marca>
+        <untitled-ontology-7:material>Plastico</untitled-ontology-7:material>
+        <untitled-ontology-7:materialMalla>Acero inoxidable</untitled-ontology-7:materialMalla>
+        <untitled-ontology-7:nombre>Colador de Malla Fina</untitled-ontology-7:nombre>
+        <untitled-ontology-7:tamañoMalla rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</untitled-ontology-7:tamañoMalla>
+        <untitled-ontology-7:uso>Filtrar líquidos o separar sólidos finos de mezclas.</untitled-ontology-7:uso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Confitado_almibar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Confitado_almibar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Confitada"/>
+        <untitled-ontology-7:herramienta_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Confitado_almibar"/>
+        <untitled-ontology-7:herramientas rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Colador"/>
+        <untitled-ontology-7:herramientas rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Termometro_de_cocina"/>
+        <untitled-ontology-7:concentracionAzucar rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70.5</untitled-ontology-7:concentracionAzucar>
+        <untitled-ontology-7:dificultad>Media</untitled-ontology-7:dificultad>
+        <untitled-ontology-7:nombrePreparación>Confitado de frutas en almíbar</untitled-ontology-7:nombrePreparación>
+        <untitled-ontology-7:tiempo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</untitled-ontology-7:tiempo>
+        <untitled-ontology-7:tipoCristalizacion>Cristalización controlada</untitled-ontology-7:tipoCristalizacion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#CuchilloPastelero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#CuchilloPastelero">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Corte"/>
+        <untitled-ontology-7:longitudHoja rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.5</untitled-ontology-7:longitudHoja>
+        <untitled-ontology-7:marca>Tramontina</untitled-ontology-7:marca>
+        <untitled-ontology-7:material>Acero inoxidable</untitled-ontology-7:material>
+        <untitled-ontology-7:nombre>Cuchillo de pasteleria</untitled-ontology-7:nombre>
+        <untitled-ontology-7:tipoFilo>Liso</untitled-ontology-7:tipoFilo>
+        <untitled-ontology-7:uso>Cortar</untitled-ontology-7:uso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Fritura_masas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Fritura_masas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Frita"/>
+        <untitled-ontology-7:herramientas rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Batidora"/>
+        <untitled-ontology-7:herramientas rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Termometro_de_cocina"/>
+        <untitled-ontology-7:dificultad>Media</untitled-ontology-7:dificultad>
+        <untitled-ontology-7:nombrePreparación>Fritura de masas dulces</untitled-ontology-7:nombrePreparación>
+        <untitled-ontology-7:temperaturaAceite rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">175.0</untitled-ontology-7:temperaturaAceite>
+        <untitled-ontology-7:tiempo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</untitled-ontology-7:tiempo>
+        <untitled-ontology-7:tipoAceiteUtilizado>Aceite vegetal refinado</untitled-ontology-7:tipoAceiteUtilizado>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Galleta_de_chocolate_con_chispas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Galleta_de_chocolate_con_chispas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Galleta"/>
+        <untitled-ontology-7:formaGalleta>Harina , cacao , huevos , azucar , mantequilla , aceite , leche</untitled-ontology-7:formaGalleta>
+        <untitled-ontology-7:formaGalleta>Redondo</untitled-ontology-7:formaGalleta>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Harina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Harina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Vegetal"/>
+        <untitled-ontology-7:Ingrediente_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Fritura_masas"/>
+        <untitled-ontology-7:Ingrediente_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Macarons"/>
+        <untitled-ontology-7:Ingrediente_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Paneton"/>
+        <untitled-ontology-7:contenidoGraso rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4</untitled-ontology-7:contenidoGraso>
+        <untitled-ontology-7:contenidoProteico rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3</untitled-ontology-7:contenidoProteico>
+        <untitled-ontology-7:gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:gluten>
+        <untitled-ontology-7:nivelMaduracion>Verde</untitled-ontology-7:nivelMaduracion>
+        <untitled-ontology-7:nombreIngrediente>Harina vegetal</untitled-ontology-7:nombreIngrediente>
+        <untitled-ontology-7:origen>Maiz</untitled-ontology-7:origen>
+        <untitled-ontology-7:precesoConservacion>Natural</untitled-ontology-7:precesoConservacion>
+        <untitled-ontology-7:sabor>Salado</untitled-ontology-7:sabor>
+        <untitled-ontology-7:tipoCultivo>Industrial</untitled-ontology-7:tipoCultivo>
+        <untitled-ontology-7:unidad_vida_util>años</untitled-ontology-7:unidad_vida_util>
+        <untitled-ontology-7:vidaUtil rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</untitled-ontology-7:vidaUtil>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horneado_tradicional -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horneado_tradicional">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horneada"/>
+        <untitled-ontology-7:herramientas rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horno"/>
+        <untitled-ontology-7:herramientas rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Molde_acero"/>
+        <untitled-ontology-7:preparacion_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Brownie"/>
+        <untitled-ontology-7:preparacion_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Paneton"/>
+        <untitled-ontology-7:dificultad>media</untitled-ontology-7:dificultad>
+        <untitled-ontology-7:nombrePreparación>Horneado tradicional</untitled-ontology-7:nombrePreparación>
+        <untitled-ontology-7:temperaturaHorno rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</untitled-ontology-7:temperaturaHorno>
+        <untitled-ontology-7:tiempo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</untitled-ontology-7:tiempo>
+        <untitled-ontology-7:unidad_temperatura_horno>Centigrados</untitled-ontology-7:unidad_temperatura_horno>
+        <untitled-ontology-7:unidad_tiempo_horneado>Minutos</untitled-ontology-7:unidad_tiempo_horneado>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horno -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horno">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Coccion"/>
+        <untitled-ontology-7:herramienta_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Batido_y_horneado"/>
+        <untitled-ontology-7:herramienta_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horneado_tradicional"/>
+        <untitled-ontology-7:MetodoCoccion>Horneado</untitled-ontology-7:MetodoCoccion>
+        <untitled-ontology-7:fuenteCalor>Gas</untitled-ontology-7:fuenteCalor>
+        <untitled-ontology-7:marca>KitchenAid</untitled-ontology-7:marca>
+        <untitled-ontology-7:material>Acero inoxidable</untitled-ontology-7:material>
+        <untitled-ontology-7:nombre>Horno</untitled-ontology-7:nombre>
+        <untitled-ontology-7:uso>Cocción uniforme de pasteles, panes y galletas mediante calor controlado</untitled-ontology-7:uso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Huevo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Huevo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Animal"/>
+        <untitled-ontology-7:Ingrediente_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Fritura_masas"/>
+        <untitled-ontology-7:Ingrediente_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Macarons"/>
+        <untitled-ontology-7:Ingrediente_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Paneton"/>
+        <untitled-ontology-7:Ingrediente_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Pastel_de_Vainilla"/>
+        <untitled-ontology-7:colageno rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</untitled-ontology-7:colageno>
+        <untitled-ontology-7:contenidoGraso rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</untitled-ontology-7:contenidoGraso>
+        <untitled-ontology-7:contenidoProteico rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.33</untitled-ontology-7:contenidoProteico>
+        <untitled-ontology-7:nombreIngrediente>Huevo</untitled-ontology-7:nombreIngrediente>
+        <untitled-ontology-7:parte>embrion</untitled-ontology-7:parte>
+        <untitled-ontology-7:porcentajeGrasa rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</untitled-ontology-7:porcentajeGrasa>
+        <untitled-ontology-7:precesoConservacion>Refrigeración</untitled-ontology-7:precesoConservacion>
+        <untitled-ontology-7:sabor>Dulce</untitled-ontology-7:sabor>
+        <untitled-ontology-7:tipoCrianza>Industrial</untitled-ontology-7:tipoCrianza>
+        <untitled-ontology-7:unidad_vida_util>semanas</untitled-ontology-7:unidad_vida_util>
+        <untitled-ontology-7:vidaUtil rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</untitled-ontology-7:vidaUtil>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Integral_De_Nuez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Integral_De_Nuez">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Pan"/>
+        <untitled-ontology-7:aromas>nuez</untitled-ontology-7:aromas>
+        <untitled-ontology-7:cobertura>anis</untitled-ontology-7:cobertura>
+        <untitled-ontology-7:esAptoParaDiabeticos rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:esAptoParaDiabeticos>
+        <untitled-ontology-7:gluten>harina integral de trigo</untitled-ontology-7:gluten>
+        <untitled-ontology-7:grasas rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</untitled-ontology-7:grasas>
+        <untitled-ontology-7:humedadRelativa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</untitled-ontology-7:humedadRelativa>
+        <untitled-ontology-7:nombreProducto>Pan de nuez</untitled-ontology-7:nombreProducto>
+        <untitled-ontology-7:proteina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.5</untitled-ontology-7:proteina>
+        <untitled-ontology-7:tamaño rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13</untitled-ontology-7:tamaño>
+        <untitled-ontology-7:unidadContenido rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">65</untitled-ontology-7:unidadContenido>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Jugo_limon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Jugo_limon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Vegetal"/>
+        <untitled-ontology-7:contenidoGraso rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4</untitled-ontology-7:contenidoGraso>
+        <untitled-ontology-7:contenidoProteico rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.15</untitled-ontology-7:contenidoProteico>
+        <untitled-ontology-7:gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:gluten>
+        <untitled-ontology-7:nivelMaduracion>Maduro</untitled-ontology-7:nivelMaduracion>
+        <untitled-ontology-7:nombreIngrediente>Jugo de limon</untitled-ontology-7:nombreIngrediente>
+        <untitled-ontology-7:origen>Limon</untitled-ontology-7:origen>
+        <untitled-ontology-7:precesoConservacion>Refrigerado</untitled-ontology-7:precesoConservacion>
+        <untitled-ontology-7:sabor>Dulce</untitled-ontology-7:sabor>
+        <untitled-ontology-7:tipoCultivo>Organico</untitled-ontology-7:tipoCultivo>
+        <untitled-ontology-7:unidad_vida_util>Dias</untitled-ontology-7:unidad_vida_util>
+        <untitled-ontology-7:vidaUtil rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-7:vidaUtil>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Leche_vegetal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Leche_vegetal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Vegetal"/>
+        <untitled-ontology-7:Ingrediente_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Coco_Light"/>
+        <untitled-ontology-7:Ingrediente_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Paneton"/>
+        <untitled-ontology-7:contenidoGraso rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</untitled-ontology-7:contenidoGraso>
+        <untitled-ontology-7:contenidoProteico rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</untitled-ontology-7:contenidoProteico>
+        <untitled-ontology-7:gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:gluten>
+        <untitled-ontology-7:nivelMaduracion>Maduro</untitled-ontology-7:nivelMaduracion>
+        <untitled-ontology-7:nombreIngrediente>Leche vegetal</untitled-ontology-7:nombreIngrediente>
+        <untitled-ontology-7:origen>Almendras</untitled-ontology-7:origen>
+        <untitled-ontology-7:precesoConservacion>Refrigerado</untitled-ontology-7:precesoConservacion>
+        <untitled-ontology-7:sabor>Dulce</untitled-ontology-7:sabor>
+        <untitled-ontology-7:tipoCultivo>Convencional</untitled-ontology-7:tipoCultivo>
+        <untitled-ontology-7:unidad_vida_util>Dias</untitled-ontology-7:unidad_vida_util>
+        <untitled-ontology-7:vidaUtil rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</untitled-ontology-7:vidaUtil>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Macarons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Macarons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Galleta"/>
+        <untitled-ontology-7:Ingredientes rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Harina"/>
+        <untitled-ontology-7:Ingredientes rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Huevo"/>
+        <untitled-ontology-7:preparacion rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Batido_y_horneado"/>
+        <untitled-ontology-7:Crocancia>Alta</untitled-ontology-7:Crocancia>
+        <untitled-ontology-7:aromas>Vainilla, Frambuesa, Pistacho, Café, Chocolate</untitled-ontology-7:aromas>
+        <untitled-ontology-7:artesanal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:artesanal>
+        <untitled-ontology-7:formaGalleta>Redonda</untitled-ontology-7:formaGalleta>
+        <untitled-ontology-7:grasas rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</untitled-ontology-7:grasas>
+        <untitled-ontology-7:nombreProducto>Macarons</untitled-ontology-7:nombreProducto>
+        <untitled-ontology-7:proteina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.2</untitled-ontology-7:proteina>
+        <untitled-ontology-7:puede_ser_alergico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:puede_ser_alergico>
+        <untitled-ontology-7:textura>Crujiente por fuera, suave y húmeda por dentro</untitled-ontology-7:textura>
+        <untitled-ontology-7:unidadGrasas>g por 100g</untitled-ontology-7:unidadGrasas>
+        <untitled-ontology-7:unidadProteina>g por 100g</untitled-ontology-7:unidadProteina>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#MangaPastelera -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#MangaPastelera">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Decoracion"/>
+        <untitled-ontology-7:marca>Wilton</untitled-ontology-7:marca>
+        <untitled-ontology-7:material>Silicona alimentaria reutilizable</untitled-ontology-7:material>
+        <untitled-ontology-7:nivelDetalle>Alto</untitled-ontology-7:nivelDetalle>
+        <untitled-ontology-7:nombre>Manga pastelera reutilizable</untitled-ontology-7:nombre>
+        <untitled-ontology-7:tecnicaAplicada>Glaseado</untitled-ontology-7:tecnicaAplicada>
+        <untitled-ontology-7:tipoDecoracion>Escritura y detalles</untitled-ontology-7:tipoDecoracion>
+        <untitled-ontology-7:uso>Aplicar y decorar preparaciones con cremas, merengues, glaseados</untitled-ontology-7:uso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Mantequilla -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Mantequilla">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Animal"/>
+        <untitled-ontology-7:Ingrediente_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Brownie"/>
+        <untitled-ontology-7:Ingrediente_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Fritura_masas"/>
+        <untitled-ontology-7:Ingrediente_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Paneton"/>
+        <untitled-ontology-7:colageno rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</untitled-ontology-7:colageno>
+        <untitled-ontology-7:contenidoGraso rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</untitled-ontology-7:contenidoGraso>
+        <untitled-ontology-7:contenidoProteico rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</untitled-ontology-7:contenidoProteico>
+        <untitled-ontology-7:nombreIngrediente>Mantequilla</untitled-ontology-7:nombreIngrediente>
+        <untitled-ontology-7:parte>Leche de vaca</untitled-ontology-7:parte>
+        <untitled-ontology-7:porcentajeGrasa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8</untitled-ontology-7:porcentajeGrasa>
+        <untitled-ontology-7:precesoConservacion>Refrigerado</untitled-ontology-7:precesoConservacion>
+        <untitled-ontology-7:sabor>Suave y ligeramente dulce</untitled-ontology-7:sabor>
+        <untitled-ontology-7:tipoCrianza>Ecologica</untitled-ontology-7:tipoCrianza>
+        <untitled-ontology-7:unidadContenido>g/100g</untitled-ontology-7:unidadContenido>
+        <untitled-ontology-7:unidad_vida_util>Meses</untitled-ontology-7:unidad_vida_util>
+        <untitled-ontology-7:vidaUtil rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</untitled-ontology-7:vidaUtil>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Masa_hojaldre_tradicional -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Masa_hojaldre_tradicional">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Laminada"/>
+        <untitled-ontology-7:herramientas rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Molde_acero"/>
+        <untitled-ontology-7:herramientas rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Rodillo"/>
+        <untitled-ontology-7:cantidadCapas rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-7:cantidadCapas>
+        <untitled-ontology-7:dificultad>Alta</untitled-ontology-7:dificultad>
+        <untitled-ontology-7:grosorCapa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</untitled-ontology-7:grosorCapa>
+        <untitled-ontology-7:manual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:manual>
+        <untitled-ontology-7:nombrePreparación>Masa de hojaldre tradicional</untitled-ontology-7:nombrePreparación>
+        <untitled-ontology-7:tiempo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</untitled-ontology-7:tiempo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Mezcla_congelada_batida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Mezcla_congelada_batida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Refrigerada"/>
+        <untitled-ontology-7:herramientas rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Batidora"/>
+        <untitled-ontology-7:herramientas rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Refrigerador"/>
+        <untitled-ontology-7:preparacion_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Coco_Light"/>
+        <untitled-ontology-7:dificultad>Baja</untitled-ontology-7:dificultad>
+        <untitled-ontology-7:humedadRelativa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</untitled-ontology-7:humedadRelativa>
+        <untitled-ontology-7:nombrePreparación>Mecla congelada y batida</untitled-ontology-7:nombrePreparación>
+        <untitled-ontology-7:temperaturaRefrigeración rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-7:temperaturaRefrigeración>
+        <untitled-ontology-7:tiempo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</untitled-ontology-7:tiempo>
+        <untitled-ontology-7:tiempoConservación rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</untitled-ontology-7:tiempoConservación>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#MoldeSilicona -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#MoldeSilicona">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Moldeado"/>
+        <untitled-ontology-7:forma>Rectangular</untitled-ontology-7:forma>
+        <untitled-ontology-7:marca>Wilton</untitled-ontology-7:marca>
+        <untitled-ontology-7:material>Silicona de grado alimenticio</untitled-ontology-7:material>
+        <untitled-ontology-7:nombre>Molde de silicona</untitled-ontology-7:nombre>
+        <untitled-ontology-7:resistenciaAltasTemperaturas>Baja</untitled-ontology-7:resistenciaAltasTemperaturas>
+        <untitled-ontology-7:tamaño rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</untitled-ontology-7:tamaño>
+        <untitled-ontology-7:unidad_tamaño_moldeado>centimetros</untitled-ontology-7:unidad_tamaño_moldeado>
+        <untitled-ontology-7:uso>dar forma a preparaciones culinarias</untitled-ontology-7:uso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Molde_acero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Molde_acero">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Moldeado"/>
+        <untitled-ontology-7:herramienta_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horneado_tradicional"/>
+        <untitled-ontology-7:herramienta_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Masa_hojaldre_tradicional"/>
+        <untitled-ontology-7:forma>Cuadrada</untitled-ontology-7:forma>
+        <untitled-ontology-7:marca>Ekco</untitled-ontology-7:marca>
+        <untitled-ontology-7:material>Acero inoxidable</untitled-ontology-7:material>
+        <untitled-ontology-7:nombre>Molde de Acero</untitled-ontology-7:nombre>
+        <untitled-ontology-7:resistenciaAltasTemperaturas>Alta</untitled-ontology-7:resistenciaAltasTemperaturas>
+        <untitled-ontology-7:tamaño rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</untitled-ontology-7:tamaño>
+        <untitled-ontology-7:unidad_tamaño_moldeado>centimetros</untitled-ontology-7:unidad_tamaño_moldeado>
+        <untitled-ontology-7:uso>Dar forma, hornear</untitled-ontology-7:uso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Paneton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Paneton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Pan"/>
+        <untitled-ontology-7:Ingredientes rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Harina"/>
+        <untitled-ontology-7:Ingredientes rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Huevo"/>
+        <untitled-ontology-7:Ingredientes rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Leche_vegetal"/>
+        <untitled-ontology-7:Ingredientes rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Mantequilla"/>
+        <untitled-ontology-7:herramientas rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Molde_acero"/>
+        <untitled-ontology-7:preparacion rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Horneado_tradicional"/>
+        <untitled-ontology-7:aromas>Vainilla, Cítricos, Frutas confitadas, Ron o esencia de licor</untitled-ontology-7:aromas>
+        <untitled-ontology-7:artesanal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:artesanal>
+        <untitled-ontology-7:cantidadLevadura rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</untitled-ontology-7:cantidadLevadura>
+        <untitled-ontology-7:consumo_temporada>Navidad</untitled-ontology-7:consumo_temporada>
+        <untitled-ontology-7:contenidoFibra rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.2</untitled-ontology-7:contenidoFibra>
+        <untitled-ontology-7:grasas rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.0</untitled-ontology-7:grasas>
+        <untitled-ontology-7:nombreProducto>Panetón</untitled-ontology-7:nombreProducto>
+        <untitled-ontology-7:proteina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</untitled-ontology-7:proteina>
+        <untitled-ontology-7:tipoFermentación>Natural</untitled-ontology-7:tipoFermentación>
+        <untitled-ontology-7:tipoMiga>Aireada y fibrosa</untitled-ontology-7:tipoMiga>
+        <untitled-ontology-7:unidadGrasas>g por 100g</untitled-ontology-7:unidadGrasas>
+        <untitled-ontology-7:unidadProteina>g por 100g</untitled-ontology-7:unidadProteina>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Pastel_de_Vainilla -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Pastel_de_Vainilla">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Torta"/>
+        <untitled-ontology-7:Ingredientes rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Mantequilla"/>
+        <untitled-ontology-7:preparacion rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Batido_y_horneado"/>
+        <untitled-ontology-7:aromas>vainilla</untitled-ontology-7:aromas>
+        <untitled-ontology-7:artesanal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:artesanal>
+        <untitled-ontology-7:cobertura>crema de vainilla</untitled-ontology-7:cobertura>
+        <untitled-ontology-7:grasas rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.0</untitled-ontology-7:grasas>
+        <untitled-ontology-7:nivelHumedad>humedo</untitled-ontology-7:nivelHumedad>
+        <untitled-ontology-7:proteina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</untitled-ontology-7:proteina>
+        <untitled-ontology-7:relleno>sin relleno</untitled-ontology-7:relleno>
+        <untitled-ontology-7:tamañoTorta rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0</untitled-ontology-7:tamañoTorta>
+        <untitled-ontology-7:tipoBizcocho>genovés</untitled-ontology-7:tipoBizcocho>
+        <untitled-ontology-7:unidadGrasas>g</untitled-ontology-7:unidadGrasas>
+        <untitled-ontology-7:unidadProteina>g</untitled-ontology-7:unidadProteina>
+        <untitled-ontology-7:unidadTamañoTorta>cm</untitled-ontology-7:unidadTamañoTorta>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Refrigerador -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Refrigerador">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Enfriado"/>
+        <untitled-ontology-7:herramienta_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Mezcla_congelada_batida"/>
+        <untitled-ontology-7:marca>Samsung</untitled-ontology-7:marca>
+        <untitled-ontology-7:material>Acero inoxidable</untitled-ontology-7:material>
+        <untitled-ontology-7:metodoEnfriado>Aire</untitled-ontology-7:metodoEnfriado>
+        <untitled-ontology-7:nombre>Refrigerador Samsung RT38K5930S8</untitled-ontology-7:nombre>
+        <untitled-ontology-7:uso>Conservar alimentos y bebidas a baja temperatura</untitled-ontology-7:uso>
+        <untitled-ontology-7:velocidadEnfriamiento rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.2</untitled-ontology-7:velocidadEnfriamiento>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Rodillo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Rodillo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Moldeado"/>
+        <untitled-ontology-7:herramienta_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Masa_hojaldre_tradicional"/>
+        <untitled-ontology-7:forma>Cilindro</untitled-ontology-7:forma>
+        <untitled-ontology-7:marca>Tramontina</untitled-ontology-7:marca>
+        <untitled-ontology-7:material>Madera</untitled-ontology-7:material>
+        <untitled-ontology-7:nombre>Rodillo</untitled-ontology-7:nombre>
+        <untitled-ontology-7:resistenciaAltasTemperaturas>Media</untitled-ontology-7:resistenciaAltasTemperaturas>
+        <untitled-ontology-7:tamaño rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</untitled-ontology-7:tamaño>
+        <untitled-ontology-7:unidad_tamaño_moldeado>Centimetros</untitled-ontology-7:unidad_tamaño_moldeado>
+        <untitled-ontology-7:uso>Aplanar y moldear</untitled-ontology-7:uso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#SucursalCentro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#SucursalCentro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#sucursal"/>
+        <untitled-ontology-7:ubicacion>Calle sucre, Plaza principal</untitled-ontology-7:ubicacion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#SucursalNorte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#SucursalNorte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#sucursal"/>
+        <untitled-ontology-7:ubicacion>ubicacion=&quot;Av America, Av Libertador Simon Bolivar&quot;</untitled-ontology-7:ubicacion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#SucursalSud -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#SucursalSud">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#sucursal"/>
+        <untitled-ontology-7:ubicacion>Av. Panamericana</untitled-ontology-7:ubicacion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Termometro_de_cocina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Termometro_de_cocina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Medicion"/>
+        <untitled-ontology-7:herramienta_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Confitado_almibar"/>
+        <untitled-ontology-7:herramienta_de rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Fritura_masas"/>
+        <untitled-ontology-7:marca>Acero inoxidable</untitled-ontology-7:marca>
+        <untitled-ontology-7:marca>ThermoWorks</untitled-ontology-7:marca>
+        <untitled-ontology-7:margenError rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.05</untitled-ontology-7:margenError>
+        <untitled-ontology-7:nombre>Termometro de cocina</untitled-ontology-7:nombre>
+        <untitled-ontology-7:precision rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.95</untitled-ontology-7:precision>
+        <untitled-ontology-7:unidadMedida>Centigrados</untitled-ontology-7:unidadMedida>
+        <untitled-ontology-7:uso>Medir la temperatura de los alimentos y liquidos</untitled-ontology-7:uso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Yogur_Frutal_Fit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Yogur_Frutal_Fit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Helado"/>
+        <untitled-ontology-7:aromas>frutas</untitled-ontology-7:aromas>
+        <untitled-ontology-7:esAptoParaDiabeticos rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:esAptoParaDiabeticos>
+        <untitled-ontology-7:nombre>Helado frutal</untitled-ontology-7:nombre>
+        <untitled-ontology-7:sabor>Frutal natural</untitled-ontology-7:sabor>
+        <untitled-ontology-7:tamaño rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</untitled-ontology-7:tamaño>
+        <untitled-ontology-7:textura>Cremosa</untitled-ontology-7:textura>
+        <untitled-ontology-7:unidadContenido rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90.0</untitled-ontology-7:unidadContenido>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Zanahoria_Light -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Zanahoria_Light">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#Torta"/>
+        <untitled-ontology-7:aromas>especiado</untitled-ontology-7:aromas>
+        <untitled-ontology-7:cobertura>crema de yogur con miel</untitled-ontology-7:cobertura>
+        <untitled-ontology-7:esAptoParaDiabeticos rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:esAptoParaDiabeticos>
+        <untitled-ontology-7:grasas rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.0</untitled-ontology-7:grasas>
+        <untitled-ontology-7:nivelHumedad rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</untitled-ontology-7:nivelHumedad>
+        <untitled-ontology-7:proteina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</untitled-ontology-7:proteina>
+        <untitled-ontology-7:tamaño rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.0</untitled-ontology-7:tamaño>
+        <untitled-ontology-7:textura>humeda y esponjosa</untitled-ontology-7:textura>
+        <untitled-ontology-7:unidadContenido>g/90g</untitled-ontology-7:unidadContenido>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#sucursalNorte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#sucursalNorte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#sucursal"/>
+        <untitled-ontology-7:ubicacion>Av america, Av Santa cruz</untitled-ontology-7:ubicacion>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
