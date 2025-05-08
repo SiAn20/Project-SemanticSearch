@@ -1,0 +1,3306 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-7" IRI="http://www.semanticweb.org/magda/ontologies/2025/2/untitled-ontology-7#"/>
+    <Declaration>
+        <Class IRI="#Animal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coccion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Colado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confitada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decoracion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enfriado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frita"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galleta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Helado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Herramienta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horneada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingrediente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laminada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medicion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mezclado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moldeado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preparacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Producto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refrigerada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reposteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Torta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vegetal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sucursal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Ingrediente_de"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Ingredientes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#herramienta_de"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#herramientas"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preparacion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preparacion_de"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Crocancia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MetodoCoccion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#aromas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#artesanal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#base"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cantidadCapas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cantidadLevadura"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cobertura"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#colageno"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#concentracionAzucar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#consumo_temporada"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#contenidoAzucar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#contenidoFibra"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#contenidoGraso"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#contenidoProteico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dificultad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#esAptoParaDiabeticos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#forma"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#formaGalleta"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fuenteCalor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gluten"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#grasas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#grosorCapa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#humedadRelativa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inclusionTrozos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#longitudHoja"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#manual"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#marca"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#margenError"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#material"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#materialMalla"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#metodoEnfriado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nivelCremosidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nivelDetalle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nivelHumedad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nivelMaduracion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombreIngrediente"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombrePreparación"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombreProducto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#origen"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#parte"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#porcentajeGrasa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#precesoConservacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#precision"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#proteina"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#puede_ser_alergico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#relleno"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#resistenciaAltasTemperaturas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sabor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tamaño"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tamañoMalla"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tamañoMezclador"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tamañoTorta"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tecnicaAplicada"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temperaturaAceite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temperaturaHorno"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temperaturaRefrigeración"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#textura"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tiempo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tiempoConservación"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoAceiteUtilizado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoBizcocho"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoCrianza"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoCristalizacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoCultivo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoDecoracion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoFermentación"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoFilo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoMecanismo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoMiga"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ubicacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unidadContenido"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unidadGrasas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unidadMedida"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unidadProteina"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unidadTamañoTorta"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unidad_tamaño_moldeado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unidad_temperatura_horno"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unidad_tiempo_horneado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unidad_vida_util"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#uso"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#velocidadEnfriamiento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#vidaUtil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Almendras"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Almendras_Y_Cacao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Batidora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brownie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cacao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chia_Y_Linaza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChocoFit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coco_Light"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Colador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Confitado_almibar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CuchilloPastelero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fritura_masas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Galleta_de_chocolate_con_chispas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Harina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Horneado_tradicional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Horno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Huevo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Integral_De_Nuez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jugo_limon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Macarons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MangaPastelera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mantequilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Masa_hojaldre_tradicional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mezcla_congelada_batida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MoldeSilicona"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Molde_acero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paneton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Refrigerador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rodillo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SucursalCentro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SucursalNorte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SucursalSud"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Termometro_de_cocina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yogur_Frutal_Fit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zanahoria_Light"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sucursalNorte"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Animal"/>
+        <Class IRI="#Ingrediente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coccion"/>
+        <Class IRI="#Herramienta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Colado"/>
+        <Class IRI="#Herramienta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confitada"/>
+        <Class IRI="#Preparacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corte"/>
+        <Class IRI="#Herramienta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decoracion"/>
+        <Class IRI="#Herramienta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enfriado"/>
+        <Class IRI="#Herramienta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frita"/>
+        <Class IRI="#Preparacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galleta"/>
+        <Class IRI="#Producto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Helado"/>
+        <Class IRI="#Producto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Herramienta"/>
+        <Class IRI="#Reposteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horneada"/>
+        <Class IRI="#Preparacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingrediente"/>
+        <Class IRI="#Reposteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laminada"/>
+        <Class IRI="#Preparacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicion"/>
+        <Class IRI="#Herramienta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mezclado"/>
+        <Class IRI="#Herramienta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moldeado"/>
+        <Class IRI="#Herramienta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pan"/>
+        <Class IRI="#Producto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Preparacion"/>
+        <Class IRI="#Reposteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Producto"/>
+        <Class IRI="#Reposteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refrigerada"/>
+        <Class IRI="#Preparacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Torta"/>
+        <Class IRI="#Producto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegetal"/>
+        <Class IRI="#Ingrediente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sucursal"/>
+        <Class IRI="#Reposteria"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Pan"/>
+        <NamedIndividual IRI="#Almendras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Galleta"/>
+        <NamedIndividual IRI="#Almendras_Y_Cacao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Horneada"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mezclado"/>
+        <NamedIndividual IRI="#Batidora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Torta"/>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Torta"/>
+        <NamedIndividual IRI="#Brownie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vegetal"/>
+        <NamedIndividual IRI="#Cacao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Galleta"/>
+        <NamedIndividual IRI="#Chia_Y_Linaza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Torta"/>
+        <NamedIndividual IRI="#ChocoFit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Helado"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Colado"/>
+        <NamedIndividual IRI="#Colador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Confitada"/>
+        <NamedIndividual IRI="#Confitado_almibar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corte"/>
+        <NamedIndividual IRI="#CuchilloPastelero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Frita"/>
+        <NamedIndividual IRI="#Fritura_masas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Galleta"/>
+        <NamedIndividual IRI="#Galleta_de_chocolate_con_chispas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vegetal"/>
+        <NamedIndividual IRI="#Harina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Horneada"/>
+        <NamedIndividual IRI="#Horneado_tradicional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Coccion"/>
+        <NamedIndividual IRI="#Horno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal"/>
+        <NamedIndividual IRI="#Huevo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pan"/>
+        <NamedIndividual IRI="#Integral_De_Nuez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vegetal"/>
+        <NamedIndividual IRI="#Jugo_limon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vegetal"/>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Galleta"/>
+        <NamedIndividual IRI="#Macarons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Decoracion"/>
+        <NamedIndividual IRI="#MangaPastelera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animal"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Laminada"/>
+        <NamedIndividual IRI="#Masa_hojaldre_tradicional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Refrigerada"/>
+        <NamedIndividual IRI="#Mezcla_congelada_batida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Moldeado"/>
+        <NamedIndividual IRI="#MoldeSilicona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Moldeado"/>
+        <NamedIndividual IRI="#Molde_acero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pan"/>
+        <NamedIndividual IRI="#Paneton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Torta"/>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Enfriado"/>
+        <NamedIndividual IRI="#Refrigerador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Moldeado"/>
+        <NamedIndividual IRI="#Rodillo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sucursal"/>
+        <NamedIndividual IRI="#SucursalCentro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sucursal"/>
+        <NamedIndividual IRI="#SucursalNorte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sucursal"/>
+        <NamedIndividual IRI="#SucursalSud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medicion"/>
+        <NamedIndividual IRI="#Termometro_de_cocina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Helado"/>
+        <NamedIndividual IRI="#Yogur_Frutal_Fit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Torta"/>
+        <NamedIndividual IRI="#Zanahoria_Light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sucursal"/>
+        <NamedIndividual IRI="#sucursalNorte"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramientas"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+        <NamedIndividual IRI="#Batidora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramientas"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+        <NamedIndividual IRI="#Horno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preparacion_de"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+        <NamedIndividual IRI="#Brownie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preparacion_de"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+        <NamedIndividual IRI="#Macarons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramienta_de"/>
+        <NamedIndividual IRI="#Batidora"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramienta_de"/>
+        <NamedIndividual IRI="#Batidora"/>
+        <NamedIndividual IRI="#Fritura_masas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramienta_de"/>
+        <NamedIndividual IRI="#Batidora"/>
+        <NamedIndividual IRI="#Mezcla_congelada_batida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingredientes"/>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+        <NamedIndividual IRI="#Huevo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingredientes"/>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preparacion"/>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingredientes"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <NamedIndividual IRI="#Cacao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingredientes"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preparacion"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preparacion"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <NamedIndividual IRI="#Horneado_tradicional"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingrediente_de"/>
+        <NamedIndividual IRI="#Cacao"/>
+        <NamedIndividual IRI="#Brownie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingredientes"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preparacion"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+        <NamedIndividual IRI="#Mezcla_congelada_batida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramienta_de"/>
+        <NamedIndividual IRI="#Colador"/>
+        <NamedIndividual IRI="#Confitado_almibar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramienta_de"/>
+        <NamedIndividual IRI="#Confitado_almibar"/>
+        <NamedIndividual IRI="#Confitado_almibar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramientas"/>
+        <NamedIndividual IRI="#Confitado_almibar"/>
+        <NamedIndividual IRI="#Colador"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramientas"/>
+        <NamedIndividual IRI="#Confitado_almibar"/>
+        <NamedIndividual IRI="#Termometro_de_cocina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramientas"/>
+        <NamedIndividual IRI="#Fritura_masas"/>
+        <NamedIndividual IRI="#Batidora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramientas"/>
+        <NamedIndividual IRI="#Fritura_masas"/>
+        <NamedIndividual IRI="#Termometro_de_cocina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingrediente_de"/>
+        <NamedIndividual IRI="#Harina"/>
+        <NamedIndividual IRI="#Fritura_masas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingrediente_de"/>
+        <NamedIndividual IRI="#Harina"/>
+        <NamedIndividual IRI="#Macarons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingrediente_de"/>
+        <NamedIndividual IRI="#Harina"/>
+        <NamedIndividual IRI="#Paneton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramientas"/>
+        <NamedIndividual IRI="#Horneado_tradicional"/>
+        <NamedIndividual IRI="#Horno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramientas"/>
+        <NamedIndividual IRI="#Horneado_tradicional"/>
+        <NamedIndividual IRI="#Molde_acero"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preparacion_de"/>
+        <NamedIndividual IRI="#Horneado_tradicional"/>
+        <NamedIndividual IRI="#Brownie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preparacion_de"/>
+        <NamedIndividual IRI="#Horneado_tradicional"/>
+        <NamedIndividual IRI="#Paneton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramienta_de"/>
+        <NamedIndividual IRI="#Horno"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramienta_de"/>
+        <NamedIndividual IRI="#Horno"/>
+        <NamedIndividual IRI="#Horneado_tradicional"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingrediente_de"/>
+        <NamedIndividual IRI="#Huevo"/>
+        <NamedIndividual IRI="#Fritura_masas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingrediente_de"/>
+        <NamedIndividual IRI="#Huevo"/>
+        <NamedIndividual IRI="#Macarons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingrediente_de"/>
+        <NamedIndividual IRI="#Huevo"/>
+        <NamedIndividual IRI="#Paneton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingrediente_de"/>
+        <NamedIndividual IRI="#Huevo"/>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingrediente_de"/>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingrediente_de"/>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+        <NamedIndividual IRI="#Paneton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingredientes"/>
+        <NamedIndividual IRI="#Macarons"/>
+        <NamedIndividual IRI="#Harina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingredientes"/>
+        <NamedIndividual IRI="#Macarons"/>
+        <NamedIndividual IRI="#Huevo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preparacion"/>
+        <NamedIndividual IRI="#Macarons"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingrediente_de"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+        <NamedIndividual IRI="#Brownie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingrediente_de"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+        <NamedIndividual IRI="#Fritura_masas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingrediente_de"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+        <NamedIndividual IRI="#Paneton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramientas"/>
+        <NamedIndividual IRI="#Masa_hojaldre_tradicional"/>
+        <NamedIndividual IRI="#Molde_acero"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramientas"/>
+        <NamedIndividual IRI="#Masa_hojaldre_tradicional"/>
+        <NamedIndividual IRI="#Rodillo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramientas"/>
+        <NamedIndividual IRI="#Mezcla_congelada_batida"/>
+        <NamedIndividual IRI="#Batidora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramientas"/>
+        <NamedIndividual IRI="#Mezcla_congelada_batida"/>
+        <NamedIndividual IRI="#Refrigerador"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preparacion_de"/>
+        <NamedIndividual IRI="#Mezcla_congelada_batida"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramienta_de"/>
+        <NamedIndividual IRI="#Molde_acero"/>
+        <NamedIndividual IRI="#Horneado_tradicional"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramienta_de"/>
+        <NamedIndividual IRI="#Molde_acero"/>
+        <NamedIndividual IRI="#Masa_hojaldre_tradicional"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingredientes"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <NamedIndividual IRI="#Harina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingredientes"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <NamedIndividual IRI="#Huevo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingredientes"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingredientes"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramientas"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <NamedIndividual IRI="#Molde_acero"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preparacion"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <NamedIndividual IRI="#Horneado_tradicional"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ingredientes"/>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#preparacion"/>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramienta_de"/>
+        <NamedIndividual IRI="#Refrigerador"/>
+        <NamedIndividual IRI="#Mezcla_congelada_batida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramienta_de"/>
+        <NamedIndividual IRI="#Rodillo"/>
+        <NamedIndividual IRI="#Masa_hojaldre_tradicional"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramienta_de"/>
+        <NamedIndividual IRI="#Termometro_de_cocina"/>
+        <NamedIndividual IRI="#Confitado_almibar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#herramienta_de"/>
+        <NamedIndividual IRI="#Termometro_de_cocina"/>
+        <NamedIndividual IRI="#Fritura_masas"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aromas"/>
+        <NamedIndividual IRI="#Almendras"/>
+        <Literal>almendra tostada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cobertura"/>
+        <NamedIndividual IRI="#Almendras"/>
+        <Literal>almendras</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esAptoParaDiabeticos"/>
+        <NamedIndividual IRI="#Almendras"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gluten"/>
+        <NamedIndividual IRI="#Almendras"/>
+        <Literal>no</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grasas"/>
+        <NamedIndividual IRI="#Almendras"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grasas"/>
+        <NamedIndividual IRI="#Almendras"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#humedadRelativa"/>
+        <NamedIndividual IRI="#Almendras"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreProducto"/>
+        <NamedIndividual IRI="#Almendras"/>
+        <Literal>Pan de almendras</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamaño"/>
+        <NamedIndividual IRI="#Almendras"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadContenido"/>
+        <NamedIndividual IRI="#Almendras"/>
+        <Literal>g/ 60g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cobertura"/>
+        <NamedIndividual IRI="#Almendras_Y_Cacao"/>
+        <Literal>Almendras</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esAptoParaDiabeticos"/>
+        <NamedIndividual IRI="#Almendras_Y_Cacao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grasas"/>
+        <NamedIndividual IRI="#Almendras_Y_Cacao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreProducto"/>
+        <NamedIndividual IRI="#Almendras_Y_Cacao"/>
+        <Literal>Galleta de almendra y cacao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#puede_ser_alergico"/>
+        <NamedIndividual IRI="#Almendras_Y_Cacao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamaño"/>
+        <NamedIndividual IRI="#Almendras_Y_Cacao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadContenido"/>
+        <NamedIndividual IRI="#Almendras_Y_Cacao"/>
+        <Literal>g/15g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dificultad"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+        <Literal>Media</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePreparación"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+        <Literal>Batido y horneado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#temperaturaHorno"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tiempo"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidad_temperatura_horno"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+        <Literal>centigrados</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidad_tiempo_horneado"/>
+        <NamedIndividual IRI="#Batido_y_horneado"/>
+        <Literal>minutos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#Batidora"/>
+        <Literal>Happy Kitchen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#material"/>
+        <NamedIndividual IRI="#Batidora"/>
+        <Literal>Acero inoxidable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Batidora"/>
+        <Literal>Batidora</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamañoMezclador"/>
+        <NamedIndividual IRI="#Batidora"/>
+        <Literal>20.5 cm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoMecanismo"/>
+        <NamedIndividual IRI="#Batidora"/>
+        <Literal>Electrico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uso"/>
+        <NamedIndividual IRI="#Batidora"/>
+        <Literal>Mezclar ingredientes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aromas"/>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+        <Literal>huevo, vainilla, mantequilla ligera</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#artesanal"/>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cobertura"/>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+        <Literal>sin cobertura</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grasas"/>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelHumedad"/>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+        <Literal>medio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreProducto"/>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+        <Literal>Bizcochuelo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#proteina"/>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamañoTorta"/>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">24.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoBizcocho"/>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+        <Literal>esponjoso</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadGrasas"/>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+        <Literal>g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadProteina"/>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadTamañoTorta"/>
+        <NamedIndividual IRI="#Bizcochuelo"/>
+        <Literal>centímetros</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aromas"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <Literal>Chocolate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#artesanal"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cobertura"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <Literal>Chocolate derretido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esAptoParaDiabeticos"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grasas"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelHumedad"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <Literal>Humedo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreProducto"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <Literal>Brownie de chocolate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#proteina"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#relleno"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <Literal>Dulce de leche</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamañoTorta"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoBizcocho"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <Literal>Esponjoso</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadGrasas"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <Literal>unidadGrasas
+g/100g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadProteina"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <Literal>g/100g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadTamañoTorta"/>
+        <NamedIndividual IRI="#Brownie"/>
+        <Literal>cm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contenidoGraso"/>
+        <NamedIndividual IRI="#Cacao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contenidoProteico"/>
+        <NamedIndividual IRI="#Cacao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">18.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gluten"/>
+        <NamedIndividual IRI="#Cacao"/>
+        <Literal>no</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelMaduracion"/>
+        <NamedIndividual IRI="#Cacao"/>
+        <Literal>Maduro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreIngrediente"/>
+        <NamedIndividual IRI="#Cacao"/>
+        <Literal>Cacao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origen"/>
+        <NamedIndividual IRI="#Cacao"/>
+        <Literal>Theobroma cacao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precesoConservacion"/>
+        <NamedIndividual IRI="#Cacao"/>
+        <Literal>Ambiente seco</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sabor"/>
+        <NamedIndividual IRI="#Cacao"/>
+        <Literal>Amargo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCultivo"/>
+        <NamedIndividual IRI="#Cacao"/>
+        <Literal>Convencional</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadContenido"/>
+        <NamedIndividual IRI="#Cacao"/>
+        <Literal>g/100g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidad_vida_util"/>
+        <NamedIndividual IRI="#Cacao"/>
+        <Literal>años</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vidaUtil"/>
+        <NamedIndividual IRI="#Cacao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aromas"/>
+        <NamedIndividual IRI="#Chia_Y_Linaza"/>
+        <Literal>coco</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aromas"/>
+        <NamedIndividual IRI="#Chia_Y_Linaza"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cobertura"/>
+        <NamedIndividual IRI="#Chia_Y_Linaza"/>
+        <Literal>chia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esAptoParaDiabeticos"/>
+        <NamedIndividual IRI="#Chia_Y_Linaza"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grasas"/>
+        <NamedIndividual IRI="#Chia_Y_Linaza"/>
+        <Literal>omega-3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreProducto"/>
+        <NamedIndividual IRI="#Chia_Y_Linaza"/>
+        <Literal>Galleta de chia y linaza</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#puede_ser_alergico"/>
+        <NamedIndividual IRI="#Chia_Y_Linaza"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#relleno"/>
+        <NamedIndividual IRI="#Chia_Y_Linaza"/>
+        <Literal>almendras</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamaño"/>
+        <NamedIndividual IRI="#Chia_Y_Linaza"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cobertura"/>
+        <NamedIndividual IRI="#ChocoFit"/>
+        <Literal>Chocolate amargo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esAptoParaDiabeticos"/>
+        <NamedIndividual IRI="#ChocoFit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grasas"/>
+        <NamedIndividual IRI="#ChocoFit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#humedadRelativa"/>
+        <NamedIndividual IRI="#ChocoFit"/>
+        <Literal>15%</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreProducto"/>
+        <NamedIndividual IRI="#ChocoFit"/>
+        <Literal>ChocoFit</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamaño"/>
+        <NamedIndividual IRI="#ChocoFit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadContenido"/>
+        <NamedIndividual IRI="#ChocoFit"/>
+        <Literal>g/25g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aromas"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+        <Literal>Coco natural y Vainilla suave</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#artesanal"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#base"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+        <Literal>Vegetal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contenidoAzucar"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esAptoParaDiabeticos"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grasas"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#inclusionTrozos"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelCremosidad"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+        <Literal>Medio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreProducto"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+        <Literal>Helaco coco Light</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#proteina"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadGrasas"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+        <Literal>g por 100g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadProteina"/>
+        <NamedIndividual IRI="#Coco_Light"/>
+        <Literal>g por 100g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#Colador"/>
+        <Literal>Cuisinart</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#material"/>
+        <NamedIndividual IRI="#Colador"/>
+        <Literal>Plastico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#materialMalla"/>
+        <NamedIndividual IRI="#Colador"/>
+        <Literal>Acero inoxidable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Colador"/>
+        <Literal>Colador de Malla Fina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamañoMalla"/>
+        <NamedIndividual IRI="#Colador"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uso"/>
+        <NamedIndividual IRI="#Colador"/>
+        <Literal>Filtrar líquidos o separar sólidos finos de mezclas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#concentracionAzucar"/>
+        <NamedIndividual IRI="#Confitado_almibar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">70.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dificultad"/>
+        <NamedIndividual IRI="#Confitado_almibar"/>
+        <Literal>Media</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePreparación"/>
+        <NamedIndividual IRI="#Confitado_almibar"/>
+        <Literal>Confitado de frutas en almíbar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tiempo"/>
+        <NamedIndividual IRI="#Confitado_almibar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">180</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCristalizacion"/>
+        <NamedIndividual IRI="#Confitado_almibar"/>
+        <Literal>Cristalización controlada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#longitudHoja"/>
+        <NamedIndividual IRI="#CuchilloPastelero"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">20.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#CuchilloPastelero"/>
+        <Literal>Tramontina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#material"/>
+        <NamedIndividual IRI="#CuchilloPastelero"/>
+        <Literal>Acero inoxidable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#CuchilloPastelero"/>
+        <Literal>Cuchillo de pasteleria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoFilo"/>
+        <NamedIndividual IRI="#CuchilloPastelero"/>
+        <Literal>Liso</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uso"/>
+        <NamedIndividual IRI="#CuchilloPastelero"/>
+        <Literal>Cortar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dificultad"/>
+        <NamedIndividual IRI="#Fritura_masas"/>
+        <Literal>Media</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePreparación"/>
+        <NamedIndividual IRI="#Fritura_masas"/>
+        <Literal>Fritura de masas dulces</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#temperaturaAceite"/>
+        <NamedIndividual IRI="#Fritura_masas"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">175.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tiempo"/>
+        <NamedIndividual IRI="#Fritura_masas"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAceiteUtilizado"/>
+        <NamedIndividual IRI="#Fritura_masas"/>
+        <Literal>Aceite vegetal refinado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formaGalleta"/>
+        <NamedIndividual IRI="#Galleta_de_chocolate_con_chispas"/>
+        <Literal>Harina , cacao , huevos , azucar , mantequilla , aceite , leche</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formaGalleta"/>
+        <NamedIndividual IRI="#Galleta_de_chocolate_con_chispas"/>
+        <Literal>Redondo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contenidoGraso"/>
+        <NamedIndividual IRI="#Harina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contenidoProteico"/>
+        <NamedIndividual IRI="#Harina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gluten"/>
+        <NamedIndividual IRI="#Harina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelMaduracion"/>
+        <NamedIndividual IRI="#Harina"/>
+        <Literal>Verde</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreIngrediente"/>
+        <NamedIndividual IRI="#Harina"/>
+        <Literal>Harina vegetal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origen"/>
+        <NamedIndividual IRI="#Harina"/>
+        <Literal>Maiz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precesoConservacion"/>
+        <NamedIndividual IRI="#Harina"/>
+        <Literal>Natural</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sabor"/>
+        <NamedIndividual IRI="#Harina"/>
+        <Literal>Salado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCultivo"/>
+        <NamedIndividual IRI="#Harina"/>
+        <Literal>Industrial</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidad_vida_util"/>
+        <NamedIndividual IRI="#Harina"/>
+        <Literal>años</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vidaUtil"/>
+        <NamedIndividual IRI="#Harina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dificultad"/>
+        <NamedIndividual IRI="#Horneado_tradicional"/>
+        <Literal>media</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePreparación"/>
+        <NamedIndividual IRI="#Horneado_tradicional"/>
+        <Literal>Horneado tradicional</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#temperaturaHorno"/>
+        <NamedIndividual IRI="#Horneado_tradicional"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">160</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tiempo"/>
+        <NamedIndividual IRI="#Horneado_tradicional"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">180</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidad_temperatura_horno"/>
+        <NamedIndividual IRI="#Horneado_tradicional"/>
+        <Literal>Centigrados</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidad_tiempo_horneado"/>
+        <NamedIndividual IRI="#Horneado_tradicional"/>
+        <Literal>Minutos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#MetodoCoccion"/>
+        <NamedIndividual IRI="#Horno"/>
+        <Literal>Horneado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuenteCalor"/>
+        <NamedIndividual IRI="#Horno"/>
+        <Literal>Gas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#Horno"/>
+        <Literal>KitchenAid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#material"/>
+        <NamedIndividual IRI="#Horno"/>
+        <Literal>Acero inoxidable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Horno"/>
+        <Literal>Horno</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uso"/>
+        <NamedIndividual IRI="#Horno"/>
+        <Literal>Cocción uniforme de pasteles, panes y galletas mediante calor controlado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#colageno"/>
+        <NamedIndividual IRI="#Huevo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contenidoGraso"/>
+        <NamedIndividual IRI="#Huevo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contenidoProteico"/>
+        <NamedIndividual IRI="#Huevo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreIngrediente"/>
+        <NamedIndividual IRI="#Huevo"/>
+        <Literal>Huevo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#parte"/>
+        <NamedIndividual IRI="#Huevo"/>
+        <Literal>embrion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#porcentajeGrasa"/>
+        <NamedIndividual IRI="#Huevo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precesoConservacion"/>
+        <NamedIndividual IRI="#Huevo"/>
+        <Literal>Refrigeración</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sabor"/>
+        <NamedIndividual IRI="#Huevo"/>
+        <Literal>Dulce</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCrianza"/>
+        <NamedIndividual IRI="#Huevo"/>
+        <Literal>Industrial</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidad_vida_util"/>
+        <NamedIndividual IRI="#Huevo"/>
+        <Literal>semanas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vidaUtil"/>
+        <NamedIndividual IRI="#Huevo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aromas"/>
+        <NamedIndividual IRI="#Integral_De_Nuez"/>
+        <Literal>nuez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cobertura"/>
+        <NamedIndividual IRI="#Integral_De_Nuez"/>
+        <Literal>anis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esAptoParaDiabeticos"/>
+        <NamedIndividual IRI="#Integral_De_Nuez"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gluten"/>
+        <NamedIndividual IRI="#Integral_De_Nuez"/>
+        <Literal>harina integral de trigo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grasas"/>
+        <NamedIndividual IRI="#Integral_De_Nuez"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#humedadRelativa"/>
+        <NamedIndividual IRI="#Integral_De_Nuez"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreProducto"/>
+        <NamedIndividual IRI="#Integral_De_Nuez"/>
+        <Literal>Pan de nuez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#proteina"/>
+        <NamedIndividual IRI="#Integral_De_Nuez"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamaño"/>
+        <NamedIndividual IRI="#Integral_De_Nuez"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadContenido"/>
+        <NamedIndividual IRI="#Integral_De_Nuez"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contenidoGraso"/>
+        <NamedIndividual IRI="#Jugo_limon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contenidoProteico"/>
+        <NamedIndividual IRI="#Jugo_limon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gluten"/>
+        <NamedIndividual IRI="#Jugo_limon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelMaduracion"/>
+        <NamedIndividual IRI="#Jugo_limon"/>
+        <Literal>Maduro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreIngrediente"/>
+        <NamedIndividual IRI="#Jugo_limon"/>
+        <Literal>Jugo de limon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origen"/>
+        <NamedIndividual IRI="#Jugo_limon"/>
+        <Literal>Limon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precesoConservacion"/>
+        <NamedIndividual IRI="#Jugo_limon"/>
+        <Literal>Refrigerado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sabor"/>
+        <NamedIndividual IRI="#Jugo_limon"/>
+        <Literal>Dulce</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCultivo"/>
+        <NamedIndividual IRI="#Jugo_limon"/>
+        <Literal>Organico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidad_vida_util"/>
+        <NamedIndividual IRI="#Jugo_limon"/>
+        <Literal>Dias</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vidaUtil"/>
+        <NamedIndividual IRI="#Jugo_limon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contenidoGraso"/>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contenidoProteico"/>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gluten"/>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelMaduracion"/>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+        <Literal>Maduro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreIngrediente"/>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+        <Literal>Leche vegetal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origen"/>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+        <Literal>Almendras</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precesoConservacion"/>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+        <Literal>Refrigerado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sabor"/>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+        <Literal>Dulce</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCultivo"/>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+        <Literal>Convencional</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidad_vida_util"/>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+        <Literal>Dias</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vidaUtil"/>
+        <NamedIndividual IRI="#Leche_vegetal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Crocancia"/>
+        <NamedIndividual IRI="#Macarons"/>
+        <Literal>Alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aromas"/>
+        <NamedIndividual IRI="#Macarons"/>
+        <Literal>Vainilla, Frambuesa, Pistacho, Café, Chocolate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#artesanal"/>
+        <NamedIndividual IRI="#Macarons"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formaGalleta"/>
+        <NamedIndividual IRI="#Macarons"/>
+        <Literal>Redonda</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grasas"/>
+        <NamedIndividual IRI="#Macarons"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreProducto"/>
+        <NamedIndividual IRI="#Macarons"/>
+        <Literal>Macarons</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#proteina"/>
+        <NamedIndividual IRI="#Macarons"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#puede_ser_alergico"/>
+        <NamedIndividual IRI="#Macarons"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#textura"/>
+        <NamedIndividual IRI="#Macarons"/>
+        <Literal>Crujiente por fuera, suave y húmeda por dentro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadGrasas"/>
+        <NamedIndividual IRI="#Macarons"/>
+        <Literal>g por 100g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadProteina"/>
+        <NamedIndividual IRI="#Macarons"/>
+        <Literal>g por 100g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#MangaPastelera"/>
+        <Literal>Wilton</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#material"/>
+        <NamedIndividual IRI="#MangaPastelera"/>
+        <Literal>Silicona alimentaria reutilizable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelDetalle"/>
+        <NamedIndividual IRI="#MangaPastelera"/>
+        <Literal>Alto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#MangaPastelera"/>
+        <Literal>Manga pastelera reutilizable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tecnicaAplicada"/>
+        <NamedIndividual IRI="#MangaPastelera"/>
+        <Literal>Glaseado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoDecoracion"/>
+        <NamedIndividual IRI="#MangaPastelera"/>
+        <Literal>Escritura y detalles</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uso"/>
+        <NamedIndividual IRI="#MangaPastelera"/>
+        <Literal>Aplicar y decorar preparaciones con cremas, merengues, glaseados</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#colageno"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contenidoGraso"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contenidoProteico"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreIngrediente"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+        <Literal>Mantequilla</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#parte"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+        <Literal>Leche de vaca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#porcentajeGrasa"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precesoConservacion"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+        <Literal>Refrigerado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sabor"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+        <Literal>Suave y ligeramente dulce</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCrianza"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+        <Literal>Ecologica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadContenido"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+        <Literal>g/100g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidad_vida_util"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+        <Literal>Meses</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vidaUtil"/>
+        <NamedIndividual IRI="#Mantequilla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cantidadCapas"/>
+        <NamedIndividual IRI="#Masa_hojaldre_tradicional"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dificultad"/>
+        <NamedIndividual IRI="#Masa_hojaldre_tradicional"/>
+        <Literal>Alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grosorCapa"/>
+        <NamedIndividual IRI="#Masa_hojaldre_tradicional"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manual"/>
+        <NamedIndividual IRI="#Masa_hojaldre_tradicional"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePreparación"/>
+        <NamedIndividual IRI="#Masa_hojaldre_tradicional"/>
+        <Literal>Masa de hojaldre tradicional</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tiempo"/>
+        <NamedIndividual IRI="#Masa_hojaldre_tradicional"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dificultad"/>
+        <NamedIndividual IRI="#Mezcla_congelada_batida"/>
+        <Literal>Baja</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#humedadRelativa"/>
+        <NamedIndividual IRI="#Mezcla_congelada_batida"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePreparación"/>
+        <NamedIndividual IRI="#Mezcla_congelada_batida"/>
+        <Literal>Mecla congelada y batida</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#temperaturaRefrigeración"/>
+        <NamedIndividual IRI="#Mezcla_congelada_batida"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tiempo"/>
+        <NamedIndividual IRI="#Mezcla_congelada_batida"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tiempoConservación"/>
+        <NamedIndividual IRI="#Mezcla_congelada_batida"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">240</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forma"/>
+        <NamedIndividual IRI="#MoldeSilicona"/>
+        <Literal>Rectangular</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#MoldeSilicona"/>
+        <Literal>Wilton</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#material"/>
+        <NamedIndividual IRI="#MoldeSilicona"/>
+        <Literal>Silicona de grado alimenticio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#MoldeSilicona"/>
+        <Literal>Molde de silicona</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#resistenciaAltasTemperaturas"/>
+        <NamedIndividual IRI="#MoldeSilicona"/>
+        <Literal>Baja</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamaño"/>
+        <NamedIndividual IRI="#MoldeSilicona"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">25.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidad_tamaño_moldeado"/>
+        <NamedIndividual IRI="#MoldeSilicona"/>
+        <Literal>centimetros</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uso"/>
+        <NamedIndividual IRI="#MoldeSilicona"/>
+        <Literal>dar forma a preparaciones culinarias</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forma"/>
+        <NamedIndividual IRI="#Molde_acero"/>
+        <Literal>Cuadrada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#Molde_acero"/>
+        <Literal>Ekco</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#material"/>
+        <NamedIndividual IRI="#Molde_acero"/>
+        <Literal>Acero inoxidable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Molde_acero"/>
+        <Literal>Molde de Acero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#resistenciaAltasTemperaturas"/>
+        <NamedIndividual IRI="#Molde_acero"/>
+        <Literal>Alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamaño"/>
+        <NamedIndividual IRI="#Molde_acero"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidad_tamaño_moldeado"/>
+        <NamedIndividual IRI="#Molde_acero"/>
+        <Literal>centimetros</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uso"/>
+        <NamedIndividual IRI="#Molde_acero"/>
+        <Literal>Dar forma, hornear</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aromas"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <Literal>Vainilla, Cítricos, Frutas confitadas, Ron o esencia de licor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#artesanal"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cantidadLevadura"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#consumo_temporada"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <Literal>Navidad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contenidoFibra"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grasas"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreProducto"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <Literal>Panetón</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#proteina"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoFermentación"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <Literal>Natural</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoMiga"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <Literal>Aireada y fibrosa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadGrasas"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <Literal>g por 100g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadProteina"/>
+        <NamedIndividual IRI="#Paneton"/>
+        <Literal>g por 100g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aromas"/>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+        <Literal>vainilla</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#artesanal"/>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cobertura"/>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+        <Literal>crema de vainilla</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grasas"/>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelHumedad"/>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+        <Literal>humedo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#proteina"/>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#relleno"/>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+        <Literal>sin relleno</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamañoTorta"/>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoBizcocho"/>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+        <Literal>genovés</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadGrasas"/>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+        <Literal>g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadProteina"/>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+        <Literal>g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadTamañoTorta"/>
+        <NamedIndividual IRI="#Pastel_de_Vainilla"/>
+        <Literal>cm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#Refrigerador"/>
+        <Literal>Samsung</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#material"/>
+        <NamedIndividual IRI="#Refrigerador"/>
+        <Literal>Acero inoxidable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#metodoEnfriado"/>
+        <NamedIndividual IRI="#Refrigerador"/>
+        <Literal>Aire</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Refrigerador"/>
+        <Literal>Refrigerador Samsung RT38K5930S8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uso"/>
+        <NamedIndividual IRI="#Refrigerador"/>
+        <Literal>Conservar alimentos y bebidas a baja temperatura</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#velocidadEnfriamiento"/>
+        <NamedIndividual IRI="#Refrigerador"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">5.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forma"/>
+        <NamedIndividual IRI="#Rodillo"/>
+        <Literal>Cilindro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#Rodillo"/>
+        <Literal>Tramontina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#material"/>
+        <NamedIndividual IRI="#Rodillo"/>
+        <Literal>Madera</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Rodillo"/>
+        <Literal>Rodillo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#resistenciaAltasTemperaturas"/>
+        <NamedIndividual IRI="#Rodillo"/>
+        <Literal>Media</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamaño"/>
+        <NamedIndividual IRI="#Rodillo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">40.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidad_tamaño_moldeado"/>
+        <NamedIndividual IRI="#Rodillo"/>
+        <Literal>Centimetros</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uso"/>
+        <NamedIndividual IRI="#Rodillo"/>
+        <Literal>Aplanar y moldear</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ubicacion"/>
+        <NamedIndividual IRI="#SucursalCentro"/>
+        <Literal>Calle sucre, Plaza principal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ubicacion"/>
+        <NamedIndividual IRI="#SucursalNorte"/>
+        <Literal>ubicacion=&quot;Av America, Av Libertador Simon Bolivar&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ubicacion"/>
+        <NamedIndividual IRI="#SucursalSud"/>
+        <Literal>Av. Panamericana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#Termometro_de_cocina"/>
+        <Literal>Acero inoxidable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#Termometro_de_cocina"/>
+        <Literal>ThermoWorks</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#margenError"/>
+        <NamedIndividual IRI="#Termometro_de_cocina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.05</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Termometro_de_cocina"/>
+        <Literal>Termometro de cocina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precision"/>
+        <NamedIndividual IRI="#Termometro_de_cocina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.95</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadMedida"/>
+        <NamedIndividual IRI="#Termometro_de_cocina"/>
+        <Literal>Centigrados</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uso"/>
+        <NamedIndividual IRI="#Termometro_de_cocina"/>
+        <Literal>Medir la temperatura de los alimentos y liquidos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aromas"/>
+        <NamedIndividual IRI="#Yogur_Frutal_Fit"/>
+        <Literal>frutas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esAptoParaDiabeticos"/>
+        <NamedIndividual IRI="#Yogur_Frutal_Fit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Yogur_Frutal_Fit"/>
+        <Literal>Helado frutal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sabor"/>
+        <NamedIndividual IRI="#Yogur_Frutal_Fit"/>
+        <Literal>Frutal natural</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamaño"/>
+        <NamedIndividual IRI="#Yogur_Frutal_Fit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#textura"/>
+        <NamedIndividual IRI="#Yogur_Frutal_Fit"/>
+        <Literal>Cremosa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadContenido"/>
+        <NamedIndividual IRI="#Yogur_Frutal_Fit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">90.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aromas"/>
+        <NamedIndividual IRI="#Zanahoria_Light"/>
+        <Literal>especiado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cobertura"/>
+        <NamedIndividual IRI="#Zanahoria_Light"/>
+        <Literal>crema de yogur con miel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#esAptoParaDiabeticos"/>
+        <NamedIndividual IRI="#Zanahoria_Light"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grasas"/>
+        <NamedIndividual IRI="#Zanahoria_Light"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelHumedad"/>
+        <NamedIndividual IRI="#Zanahoria_Light"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#proteina"/>
+        <NamedIndividual IRI="#Zanahoria_Light"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamaño"/>
+        <NamedIndividual IRI="#Zanahoria_Light"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#textura"/>
+        <NamedIndividual IRI="#Zanahoria_Light"/>
+        <Literal>humeda y esponjosa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unidadContenido"/>
+        <NamedIndividual IRI="#Zanahoria_Light"/>
+        <Literal>g/90g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ubicacion"/>
+        <NamedIndividual IRI="#sucursalNorte"/>
+        <Literal>Av america, Av Santa cruz</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Ingrediente_de"/>
+        <Class IRI="#Ingrediente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Ingredientes"/>
+        <Class IRI="#Producto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#herramienta_de"/>
+        <Class IRI="#Herramienta"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#herramientas"/>
+        <Class IRI="#Preparacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#preparacion"/>
+        <Class IRI="#Producto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#preparacion_de"/>
+        <Class IRI="#Preparacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Ingrediente_de"/>
+        <Class IRI="#Producto"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Ingredientes"/>
+        <Class IRI="#Ingrediente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#herramienta_de"/>
+        <Class IRI="#Preparacion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#herramientas"/>
+        <Class IRI="#Herramienta"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preparacion"/>
+        <Class IRI="#Preparacion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preparacion_de"/>
+        <Class IRI="#Producto"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Crocancia"/>
+        <Class IRI="#Galleta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#MetodoCoccion"/>
+        <Class IRI="#Herramienta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#aromas"/>
+        <Class IRI="#Producto"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#artesanal"/>
+        <Class IRI="#Producto"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#base"/>
+        <Class IRI="#Helado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cantidadCapas"/>
+        <Class IRI="#Laminada"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cantidadLevadura"/>
+        <Class IRI="#Pan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cobertura"/>
+        <Class IRI="#Torta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#colageno"/>
+        <Class IRI="#Animal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#concentracionAzucar"/>
+        <Class IRI="#Confitada"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#contenidoAzucar"/>
+        <Class IRI="#Helado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#contenidoFibra"/>
+        <Class IRI="#Pan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#contenidoGraso"/>
+        <Class IRI="#Ingrediente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#contenidoProteico"/>
+        <Class IRI="#Ingrediente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dificultad"/>
+        <Class IRI="#Preparacion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#esAptoParaDiabeticos"/>
+        <Class IRI="#Reposteria"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#forma"/>
+        <Class IRI="#Moldeado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#formaGalleta"/>
+        <Class IRI="#Galleta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fuenteCalor"/>
+        <Class IRI="#Coccion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#gluten"/>
+        <Class IRI="#Vegetal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#grasas"/>
+        <Class IRI="#Producto"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#grosorCapa"/>
+        <Class IRI="#Laminada"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#humedadRelativa"/>
+        <Class IRI="#Refrigerada"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#inclusionTrozos"/>
+        <Class IRI="#Helado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#longitudHoja"/>
+        <Class IRI="#Corte"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#manual"/>
+        <Class IRI="#Laminada"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#marca"/>
+        <Class IRI="#Herramienta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#margenError"/>
+        <Class IRI="#Medicion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#material"/>
+        <Class IRI="#Herramienta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#materialMalla"/>
+        <Class IRI="#Colado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#metodoEnfriado"/>
+        <Class IRI="#Enfriado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nivelCremosidad"/>
+        <Class IRI="#Helado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nivelDetalle"/>
+        <Class IRI="#Decoracion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nivelHumedad"/>
+        <Class IRI="#Torta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nivelMaduracion"/>
+        <Class IRI="#Vegetal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Herramienta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombreIngrediente"/>
+        <Class IRI="#Ingrediente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombrePreparación"/>
+        <Class IRI="#Preparacion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombreProducto"/>
+        <Class IRI="#Producto"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#origen"/>
+        <Class IRI="#Vegetal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#parte"/>
+        <Class IRI="#Animal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#porcentajeGrasa"/>
+        <Class IRI="#Animal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#precesoConservacion"/>
+        <Class IRI="#Ingrediente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#precision"/>
+        <Class IRI="#Medicion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#proteina"/>
+        <Class IRI="#Producto"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puede_ser_alergico"/>
+        <Class IRI="#Ingrediente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#relleno"/>
+        <Class IRI="#Torta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#resistenciaAltasTemperaturas"/>
+        <Class IRI="#Moldeado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sabor"/>
+        <Class IRI="#Ingrediente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tamaño"/>
+        <Class IRI="#Moldeado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tamañoMalla"/>
+        <Class IRI="#Colado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tamañoMezclador"/>
+        <Class IRI="#Mezclado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tamañoTorta"/>
+        <Class IRI="#Torta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tecnicaAplicada"/>
+        <Class IRI="#Decoracion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temperaturaAceite"/>
+        <Class IRI="#Frita"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temperaturaHorno"/>
+        <Class IRI="#Horneada"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temperaturaRefrigeración"/>
+        <Class IRI="#Refrigerada"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#textura"/>
+        <Class IRI="#Galleta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tiempo"/>
+        <Class IRI="#Preparacion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tiempoConservación"/>
+        <Class IRI="#Refrigerada"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoAceiteUtilizado"/>
+        <Class IRI="#Frita"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoBizcocho"/>
+        <Class IRI="#Torta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoCrianza"/>
+        <Class IRI="#Animal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoCristalizacion"/>
+        <Class IRI="#Confitada"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoCultivo"/>
+        <Class IRI="#Vegetal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoDecoracion"/>
+        <Class IRI="#Decoracion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoFermentación"/>
+        <Class IRI="#Pan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoFilo"/>
+        <Class IRI="#Corte"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoMecanismo"/>
+        <Class IRI="#Mezclado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoMiga"/>
+        <Class IRI="#Pan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ubicacion"/>
+        <Class IRI="#sucursal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unidadContenido"/>
+        <Class IRI="#Ingrediente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unidadGrasas"/>
+        <Class IRI="#Producto"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unidadMedida"/>
+        <Class IRI="#Medicion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unidadProteina"/>
+        <Class IRI="#Producto"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unidadTamañoTorta"/>
+        <Class IRI="#Torta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unidad_tamaño_moldeado"/>
+        <Class IRI="#Herramienta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unidad_temperatura_horno"/>
+        <Class IRI="#Horneada"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unidad_tiempo_horneado"/>
+        <Class IRI="#Horneada"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unidad_vida_util"/>
+        <Class IRI="#Ingrediente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#uso"/>
+        <Class IRI="#Herramienta"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#velocidadEnfriamiento"/>
+        <Class IRI="#Enfriado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#vidaUtil"/>
+        <Class IRI="#Ingrediente"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Crocancia"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#MetodoCoccion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#aromas"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#artesanal"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#base"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cantidadCapas"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cantidadLevadura"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cobertura"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#colageno"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#concentracionAzucar"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#contenidoAzucar"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#contenidoFibra"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#contenidoGraso"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#contenidoProteico"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dificultad"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#esAptoParaDiabeticos"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#forma"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#formaGalleta"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fuenteCalor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#gluten"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#grasas"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#grosorCapa"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#humedadRelativa"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inclusionTrozos"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#longitudHoja"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#manual"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#marca"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#margenError"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#material"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#materialMalla"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#metodoEnfriado"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nivelCremosidad"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nivelDetalle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nivelHumedad"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nivelMaduracion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombreIngrediente"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombrePreparación"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombreProducto"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#origen"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#parte"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#porcentajeGrasa"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#precesoConservacion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#precision"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#proteina"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#puede_ser_alergico"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#relleno"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#resistenciaAltasTemperaturas"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sabor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tamaño"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tamañoMalla"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tamañoMezclador"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tamañoTorta"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tecnicaAplicada"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#temperaturaAceite"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#temperaturaHorno"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#temperaturaRefrigeración"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#textura"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tiempo"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tiempoConservación"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoAceiteUtilizado"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoBizcocho"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoCrianza"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoCristalizacion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoCultivo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoDecoracion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoFermentación"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoFilo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoMecanismo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoMiga"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ubicacion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unidadContenido"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unidadGrasas"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unidadMedida"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unidadProteina"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unidadTamañoTorta"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unidad_temperatura_horno"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unidad_tiempo_horneado"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unidad_vida_util"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#uso"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#velocidadEnfriamiento"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#vidaUtil"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
