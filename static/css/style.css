@@ -51,7 +51,6 @@ header {
 }
 
 .search-form .language select {
-  border: none;
   padding: 12px;
   font-size: 14px;
   background: transparent;
@@ -71,4 +70,34 @@ header {
 .search-form button img {
   width: 50px;
   height: 30px;
+}
+.language-select {
+  border-left: 2px solid #7c4a3b;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  appearance: none;
+  cursor: pointer;
+  padding: 8px 12px 8px 12px;
+  font-size: 14px;
+  color: #7c4a3b;
+  box-sizing: border-box;
+  width: 120px;
+}
+
+.language {
+  position: relative;
+  display: inline-block;
+}
+
+.language::after {
+  content: "▼";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  color: #7c4a3b;
+  pointer-events: none;
+  font-size: 14px;
 }
