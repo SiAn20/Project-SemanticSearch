@@ -7,14 +7,18 @@
   </head>
   
   <body>
-    <h2>Resultados:</h2>
+    <h2>Resultados</h2>
+
+    {% for tipo, lista in resultados.items() %}
+    <h3>{{ tipo.capitalize() }}</h3>
+    {% if lista %}
     <ul>
-      {% for r in resultados %}
-      <li>{{ r }}</li>
-      {% else %}
-      <li>No se encontraron resultados</li>
+      {% for item in lista %}
+      <li>{{ item }}</li>
       {% endfor %}
     </ul>
-    <a href="/">Volver</a>
+    {% else %}
+    <p>No se encontraron {{ tipo }} relacionados.</p>
+    {% endif %} {% endfor %}
   </body>
 </html>
