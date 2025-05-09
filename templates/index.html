@@ -23,10 +23,11 @@
           class="title"
         />
       </header>
-      <form action="/buscar" method="post" class="search-form">
+      <form id="search-form" class="search-form">
         <input
           type="text"
           name="consulta"
+          id="consulta"
           placeholder="¿Qué estás buscando?"
           required
         />
@@ -46,8 +47,130 @@
           />
         </button>
       </form>
-    </div>
 
-    
+      <div id="result-modal" class="modal hidden">
+        <div class="modal-content">
+          <span class="close-button" onclick="cerrarModal()">&times;</span>
+          <div id="resultados"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document
+        .getElementById("search-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          const consulta = document.getElementById("consulta").value;
+
+          fetch("/buscar", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: new URLSearchParams({ consulta: consulta }),
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              const contenedor = document.getElementById("resultados");
+              contenedor.innerHTML = "";
+
+              const categorias = {
+                clases: "Clases",
+                propiedades_clase: "Propiedades de la clase",
+                subclases: "Subclases",
+                instancias_clase: "Instancias de la clase",
+                superclases: "Superclases de subclases",
+                propiedades_subclase: "Propiedades de la subclase",
+                individuos: "Individuos",
+                clase_de_instancia: "Clase de la instancia",
+                propiedades_instancia: "Propiedades de la instancia",
+                usado_en_instancias: "Usado en otras instancias",
+                valores: "Valores",
+              };
+
+              let hayResultados = false;
+
+              for (const tipo in categorias) {
+                const valor = data[tipo];
+
+                // Determinar si hay algo que mostrar (lista no vacía o diccionario no vacío)
+                if (Array.isArray(valor) && valor.length > 0) {
+                  hayResultados = true;
+                  const titulo = document.createElement("h3");
+                  titulo.textContent = categorias[tipo];
+                  contenedor.appendChild(titulo);
+
+                  const ul = document.createElement("ul");
+                  valor.forEach((item) => {
+                    const li = document.createElement("li");
+                    li.textContent = item;
+                    ul.appendChild(li);
+                  });
+                  contenedor.appendChild(ul);
+                } else if (
+                  typeof valor === "object" &&
+                  Object.keys(valor).length > 0
+                ) {
+                  hayResultados = true;
+                  const titulo = document.createElement("h3");
+                  titulo.textContent = categorias[tipo];
+                  contenedor.appendChild(titulo);
+
+                  const ul = document.createElement("ul");
+                  for (const key in valor) {
+                    const li = document.createElement("li");
+
+                    const propiedad = valor[key];
+
+                    if (Array.isArray(propiedad)) {
+                      li.textContent = `${key}: ${propiedad.join(", ")}`;
+                    } else if (
+                      typeof propiedad === "object" &&
+                      propiedad !== null
+                    ) {
+                      // Si es un objeto anidado
+                      li.textContent = `${key}:`;
+                      const innerUl = document.createElement("ul");
+                      for (const innerKey in propiedad) {
+                        const innerLi = document.createElement("li");
+                        innerLi.textContent = `${innerKey}: ${
+                          Array.isArray(propiedad[innerKey])
+                            ? propiedad[innerKey].join(", ")
+                            : propiedad[innerKey]
+                        }`;
+                        innerUl.appendChild(innerLi);
+                      }
+                      li.appendChild(innerUl);
+                    } else {
+                      li.textContent = `${key}: ${propiedad}`;
+                    }
+
+                    ul.appendChild(li);
+                  }
+
+                  contenedor.appendChild(ul);
+                }
+              }
+
+              if (!hayResultados) {
+                const mensaje = document.createElement("p");
+                mensaje.textContent = "No se encontraron resultados en local.";
+                mensaje.style.fontStyle = "italic";
+                contenedor.appendChild(mensaje);
+              }
+
+              mostrarModal();
+            });
+        });
+
+      function mostrarModal() {
+        document.getElementById("result-modal").classList.add("show");
+      }
+
+      function cerrarModal() {
+        document.getElementById("result-modal").classList.remove("show");
+      }
+    </script>
   </body>
 </html>
