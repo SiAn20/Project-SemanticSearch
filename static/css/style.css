@@ -6,31 +6,26 @@ body {
   background-position: top center;
   height: 100vh;
 }
-
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 40px;
 }
-
 header {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 15px;
 }
-
 .logo {
   width: 130px;
   height: 140px;
 }
-
 .title {
   width: 490px;
   height: 80px;
 }
-
 .search-form {
   display: flex;
   align-items: center;
@@ -38,26 +33,23 @@ header {
   border: 2px solid #7c4a3b;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  width: 55%;
 }
-
 .search-form input[type="text"] {
   border: none;
   outline: none;
   background-color: transparent;
   padding: 12px;
   font-size: 14px;
-  width: 700px;
   border-radius: 6px 0 0 6px;
+  width: 100%;
 }
-
 .search-form .language select {
-  border: none;
   padding: 12px;
   font-size: 14px;
   background: transparent;
   outline: none;
 }
-
 .search-form button {
   background-color: #7c4a3b;
   border: none;
@@ -67,8 +59,75 @@ header {
   display: flex;
   align-items: center;
 }
-
 .search-form button img {
   width: 50px;
   height: 30px;
+}
+.language-select {
+  border-left: 2px solid #7c4a3b;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  appearance: none;
+  cursor: pointer;
+  padding: 8px 12px 8px 12px;
+  font-size: 14px;
+  color: #7c4a3b;
+  box-sizing: border-box;
+  width: 120px;
+}
+.language {
+  position: relative;
+  display: inline-block;
+}
+.language::after {
+  content: "▼";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  color: #7c4a3b;
+  pointer-events: none;
+  font-size: 14px;
+}
+.modal {
+  position: relative;
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid #7c4a3b;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 60%;
+  padding: 20px;
+  border-radius: 15px;
+  display: none;
+  max-height: 360px;
+  overflow-y: auto;
+  z-index: 10; /* Por si hay otros elementos flotantes */
+}
+.modal.show {
+  display: block;
+}
+.modal-content h3 {
+  margin-top: 10px;
+  color: #7c4a3b;
+}
+.modal-content ul {
+  padding-left: 20px;
+}
+.modal-content li {
+  margin-bottom: 5px;
+}
+.modal .close-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.modal.show {
+  display: block;
+}
+.hidden {
+  display: none;
 }
