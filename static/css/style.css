@@ -22,9 +22,21 @@ header {
   width: 130px;
   height: 140px;
 }
+@media (max-width: 1024px) {
+  .logo {
+    width: 95px;
+    height: 100px;
+  }
+}
 .title {
   width: 490px;
   height: 80px;
+}
+@media (max-width: 1024px) {
+  .title {
+    width: 290px;
+    height: 55px;
+  }
 }
 .search-form {
   display: flex;
@@ -33,7 +45,8 @@ header {
   border: 2px solid #7c4a3b;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  width: 55%;
+  max-width: 800px;
+  width: 90%;
 }
 .search-form input[type="text"] {
   border: none;
@@ -97,11 +110,13 @@ header {
   background-color: rgba(255, 255, 255, 0.8);
   border: 2px solid #7c4a3b;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  width: 60%;
+  max-width: 1000px;
+  width: 85%;
   padding: 20px;
   border-radius: 15px;
   display: none;
   max-height: 360px;
+  height: auto;
   overflow-y: auto;
   z-index: 10;
 }
