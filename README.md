@@ -13,13 +13,19 @@
 
 ## ⚙️ Instalación y ejecución del entorno
 
-1. Clona este repositorio.
+1. Clona este repositorio:
 
 ```bash
 git clone https://github.com/SiAn20/Project-SemanticSearch.git
 ```
 
-2. Preparar entorno virtul con una version de python compatible, en este caso python 3.11.0,
+2. Entrar en el proyecto:
+
+```bash
+cd Project-SemanticSearch
+```
+
+3. Preparar entorno virtul con una version de python compatible, en este caso python 3.11.0,
    si no se tiene instalado instalar de: [python](https://www.python.org/downloads/release/python-3110/)
 
 ```bash
@@ -28,13 +34,13 @@ source venv/Scripts/activate
 python --version
 ```
 
-2. Instala las dependencias con el siguiente comando:
+4. Instala las dependencias con el siguiente comando:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. ejecutar el comando:
+5. ejecutar el comando:
 
 ```bash
 python app.py
