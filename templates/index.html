@@ -34,7 +34,7 @@
         <div class="language">
           <select name="idioma" class="language-select">
             <option value="es">Español</option>
-            <option value="en">English</option>
+            <option value="en" selected>English</option>
             <option value="pt">Português</option>
             <option value="de">Deutsch</option>
             <option value="fr">Français</option>
@@ -55,6 +55,7 @@
         </div>
       </div>
     </div>
+
     <script>
       document
         .getElementById("search-form")
@@ -62,13 +63,14 @@
           e.preventDefault();
 
           const consulta = document.getElementById("consulta").value;
+          const idioma = document.querySelector(".language-select").value;
 
           fetch("/buscar", {
             method: "POST",
             headers: {
               "Content-Type": "application/x-www-form-urlencoded",
             },
-            body: new URLSearchParams({ consulta: consulta }),
+            body: new URLSearchParams({ consulta: consulta, idioma: idioma }),
           })
             .then((response) => response.json())
             .then((data) => {
@@ -94,7 +96,6 @@
               for (const tipo in categorias) {
                 const valor = data[tipo];
 
-                // Determinar si hay algo que mostrar (lista no vacía o diccionario no vacío)
                 if (Array.isArray(valor) && valor.length > 0) {
                   hayResultados = true;
                   const titulo = document.createElement("h3");
@@ -129,7 +130,6 @@
                       typeof propiedad === "object" &&
                       propiedad !== null
                     ) {
-                      // Si es un objeto anidado
                       li.textContent = `${key}:`;
                       const innerUl = document.createElement("ul");
                       for (const innerKey in propiedad) {
@@ -153,9 +153,30 @@
                 }
               }
 
-              if (!hayResultados) {
+              // Mostrar resultados de DBpedia si están disponibles
+              const dbpedia = data.descripcion_dbpedia;
+              if (Array.isArray(dbpedia) && dbpedia.length > 0) {
+                const titulo = document.createElement("h3");
+                titulo.textContent = "Sugerencias desde DBpedia";
+                contenedor.appendChild(titulo);
+
+                const ul = document.createElement("ul");
+                dbpedia.forEach((item) => {
+                  const li = document.createElement("li");
+                  li.textContent = item;
+                  ul.appendChild(li);
+                });
+                contenedor.appendChild(ul);
+              } else if (typeof dbpedia === "string" && dbpedia !== "") {
+                const p = document.createElement("p");
+                p.textContent = "Desde DBpedia: " + dbpedia;
+                p.style.fontStyle = "italic";
+                contenedor.appendChild(p);
+              }
+
+              if (!hayResultados && (!dbpedia || dbpedia.length === 0)) {
                 const mensaje = document.createElement("p");
-                mensaje.textContent = "No se encontraron resultados en local.";
+                mensaje.textContent = "No se encontraron resultados.";
                 mensaje.style.fontStyle = "italic";
                 contenedor.appendChild(mensaje);
               }
