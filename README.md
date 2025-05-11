@@ -31,30 +31,30 @@ cd Project-SemanticSearch
 ```bash
 py -3.11 -m venv venv
 ```
-
-para la terminal de bash:
+activar el entorno virtual:
+   * para la terminal de bash:
 
 ```bash
 source venv/Scripts/activate
 ```
 
-para la terminal de powershell:
+* para la terminal de powershell:
 
 ```bash
 .\venv\Scripts\Activate
 ```
 
-para la terminal de cmd:
+   * para la terminal de cmd:
 
 ```bash
 venv\Scripts\activate.bat
 ```
 
+finalmente, asegurarse de trabajar con la 3.11:
+
 ```bash
 python --version
 ```
-
-asegurarse de trabajar con la 3.11
 
 4. Instala las dependencias con el siguiente comando:
 
@@ -79,3 +79,8 @@ Se uso el siguiente comando para guardar dependencias:
 ```bash
 pip freeze > requirements.txt
 ```
+1. Primer nivel
+   * Segundo nivel 1
+     * Tercer nivel
+   * Segundo nivel 2
+2. Otro ítem del primer nivel
