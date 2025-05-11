@@ -19,10 +19,19 @@
 git clone https://github.com/SiAn20/Project-SemanticSearch.git
 ```
 
+2. Preparar entorno virtul con una version de python compatible, en este caso python 3.11.0,
+   si no se tiene instalado instalar de: [python](https://www.python.org/downloads/release/python-3110/)
+
+```bash
+py -3.11 -m venv venv
+source venv/Scripts/activate
+python --version
+```
+
 2. Instala las dependencias con el siguiente comando:
 
 ```bash
-pip install -r requirements.txt  # Instala todas las dependencias necesarias
+pip install -r requirements.txt
 ```
 
 3. ejecutar el comando:
@@ -40,5 +49,5 @@ El objetivo principal es demostrar cómo se puede aplicar la semántica y la est
 Se uso el siguiente comando para guardar dependencias:
 
 ```bash
-pip freeze > requirements.txt  # Guarda el entorno actual
+pip freeze > requirements.txt
 ```
