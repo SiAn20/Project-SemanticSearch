@@ -103,7 +103,7 @@ header {
   display: none;
   max-height: 360px;
   overflow-y: auto;
-  z-index: 10; /* Por si hay otros elementos flotantes */
+  z-index: 10;
 }
 .modal.show {
   display: block;
@@ -117,13 +117,6 @@ header {
 }
 .modal-content li {
   margin-bottom: 5px;
-}
-.modal .close-button {
-  position: absolute;
-  top: 5px;
-  right: 10px;
-  font-size: 24px;
-  cursor: pointer;
 }
 .modal.show {
   display: block;
