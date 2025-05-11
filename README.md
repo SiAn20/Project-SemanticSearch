@@ -30,9 +30,31 @@ cd Project-SemanticSearch
 
 ```bash
 py -3.11 -m venv venv
+```
+
+para la terminal de bash:
+
+```bash
 source venv/Scripts/activate
+```
+
+para la terminal de powershell:
+
+```bash
+.\venv\Scripts\Activate
+```
+
+para la terminal de cmd:
+
+```bash
+venv\Scripts\activate.bat
+```
+
+```bash
 python --version
 ```
+
+asegurarse de trabajar con la 3.11
 
 4. Instala las dependencias con el siguiente comando:
 
@@ -46,7 +68,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-4. Abrir la url que aparece en la terminal
+6. Abrir la url que aparece en la terminal
 
 ## 🚀 Objetivo
 
