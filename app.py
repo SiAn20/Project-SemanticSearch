@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template, jsonify
 from ontology_loader import onto
 from SPARQLWrapper import SPARQLWrapper, JSON
+from deep_translator import GoogleTranslator
 import re
 import spacy
 import os
@@ -51,6 +52,23 @@ def consultar_dbpedia(termino, idioma):
     except Exception as e:
         print("Error DBpedia:", e)
     return "No results found in DBpedia."
+def traducir_valores(data, idioma_destino):
+    """
+    Traduce recursivamente strings dentro de dicts y listas
+    usando GoogleTranslator desde 'es' a idioma_destino.
+    """
+    if isinstance(data, str):
+        try:
+            return GoogleTranslator(source='es', target=idioma_destino).translate(data)
+        except Exception as e:
+            print(f"Error traduciendo texto: {e}")
+            return data
+    elif isinstance(data, list):
+        return [traducir_valores(item, idioma_destino) for item in data]
+    elif isinstance(data, dict):
+        return {key: traducir_valores(value, idioma_destino) for key, value in data.items()}
+    else:
+        return data
 
 @app.route('/')
 def index():
@@ -60,7 +78,16 @@ def index():
 def buscar():
     consulta_original = request.form['consulta'].strip()
     idioma = request.form.get('idioma', 'en')
-    palabra = normalizar_nombre(consulta_original)
+     # Si el idioma no es español, traducimos la consulta al español
+    if idioma != 'es':
+        try:
+            consulta_es = GoogleTranslator(source=idioma, target='es').translate(consulta_original)
+        except Exception as e:
+            return jsonify({"error": f"Error traduciendo la consulta: {str(e)}"})
+    else:
+        consulta_es = consulta_original
+
+    palabra = normalizar_nombre(consulta_es)
 
     resultados = {
         "clases": [],
@@ -130,6 +157,23 @@ def buscar():
     # Si no se encontró, consultar DBpedia
     if not encontrado:
         resultados["descripcion_dbpedia"] = consultar_dbpedia(consulta_original, idioma)
+
+   # Si el idioma no es español, traducimos los resultados relevantes a ese idioma
+    if idioma != 'es':
+        campos_a_traducir = ["descripcion_dbpedia", "valores"]
+        for campo in campos_a_traducir:
+            if campo in resultados:
+                if isinstance(resultados[campo], str):
+                    resultados[campo] = GoogleTranslator(source='es', target=idioma).translate(resultados[campo])
+                elif isinstance(resultados[campo], list):
+                    resultados[campo] = [
+                        GoogleTranslator(source='es', target=idioma).translate(texto)
+                        for texto in resultados[campo]
+                    ]
+    # Traducir TODO el resultado solo si el idioma no es español
+    if idioma != 'es':
+        resultados = traducir_valores(resultados, idioma)
+
 
     return jsonify(resultados)
 
