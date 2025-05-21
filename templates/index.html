@@ -33,7 +33,7 @@
         />
         <div class="language">
           <select name="idioma" class="language-select">
-            <option value="es" selected >Español</option>
+            <option value="es" selected>Español</option>
             <option value="en">English</option>
             <option value="pt">Português</option>
             <option value="de">Deutsch</option>
@@ -47,6 +47,12 @@
           />
         </button>
       </form>
+
+      <!-- Loader -->
+      <div id="loader-container" class="loader-container">
+        <span class="loader"></span>
+      </div>
+
       <div id="result-modal" class="modal hidden">
         <div class="modal-content">
           <div id="resultados"></div>
@@ -56,35 +62,39 @@
 
     <script>
       // Traducciones para el placeholder
-    const placeholders = {
-      es: "¿Qué estás buscando?",
-      en: "What are you looking for?",
-      pt: "O que você está procurando?",
-      de: "Wonach suchst du?",
-      fr: "Que cherchez-vous?"
-    };
+      const placeholders = {
+        es: "¿Qué estás buscando?",
+        en: "What are you looking for?",
+        pt: "O que você está procurando?",
+        de: "Wonach suchst du?",
+        fr: "Que cherchez-vous?",
+      };
 
-    // Obtener los elementos
-    const consultaInput = document.getElementById("consulta");
-    const languageSelect = document.querySelector(".language-select");
+      // Obtener los elementos
+      const consultaInput = document.getElementById("consulta");
+      const languageSelect = document.querySelector(".language-select");
+      const loaderContainer = document.getElementById("loader-container");
 
-    // Función para actualizar el placeholder
-    function actualizarPlaceholder() {
-      const idioma = languageSelect.value;
-      consultaInput.placeholder = placeholders[idioma] || placeholders["es"];
-    }
+      // Función para actualizar el placeholder
+      function actualizarPlaceholder() {
+        const idioma = languageSelect.value;
+        consultaInput.placeholder = placeholders[idioma] || placeholders["es"];
+      }
 
-    // Detectar cambio de idioma
-    languageSelect.addEventListener("change", actualizarPlaceholder);
+      // Detectar cambio de idioma
+      languageSelect.addEventListener("change", actualizarPlaceholder);
 
-    // Llamar una vez al cargar la página
-    actualizarPlaceholder();
+      // Llamar una vez al cargar la página
+      actualizarPlaceholder();
       document
         .getElementById("search-form")
         .addEventListener("submit", async (e) => {
           e.preventDefault();
           const consulta = document.getElementById("consulta").value;
           const idioma = document.querySelector(".language-select").value;
+
+          // Mostrar el loader
+          loaderContainer.classList.add("active");
 
           // Realizar la petición al backend
           try {
@@ -99,22 +109,13 @@
             renderResults(data);
           } catch (error) {
             console.error("Error en la búsqueda:", error);
+            // En caso de error, también ocultar el loader
+            loaderContainer.classList.remove("active");
+          } finally {
+            // Ocultar el loader una vez que se han renderizado los resultados
+            loaderContainer.classList.remove("active");
           }
         });
-
-      const categorias = {
-        clases: "Clases",
-        propiedades_clase: "Propiedades de la clase",
-        subclases: "Subclases",
-        instancias_clase: "Instancias de la clase",
-        superclases: "Superclases de subclases",
-        propiedades_subclase: "Propiedades de la subclase",
-        individuos: "Instancias",
-        clase_de_instancia: "Clase de la instancia",
-        propiedades_instancia: "Propiedades de la instancia",
-        usado_en_instancias: "Usado en otras instancias",
-        valores: "Valores",
-      };
 
       const categoriasPorIdioma = {
         es: {
@@ -130,7 +131,7 @@
           usado_en_instancias: "Usado en otras instancias",
           valores: "Valores",
           dbpedia: "DBpedia",
-          no_resultados: "No se encontraron resultados."
+          no_resultados: "No se encontraron resultados.",
         },
         en: {
           clases: "Classes",
@@ -145,7 +146,7 @@
           usado_en_instancias: "Used in other instances",
           valores: "Values",
           dbpedia: "DBpedia",
-          no_resultados: "No results found."
+          no_resultados: "No results found.",
         },
         pt: {
           clases: "Classes",
@@ -160,7 +161,7 @@
           usado_en_instancias: "Usado em outras instâncias",
           valores: "Valores",
           dbpedia: "DBpedia",
-          no_resultados: "Nenhum resultado encontrado."
+          no_resultados: "Nenhum resultado encontrado.",
         },
         de: {
           clases: "Klassen",
@@ -175,7 +176,7 @@
           usado_en_instancias: "Verwendet in anderen Instanzen",
           valores: "Werte",
           dbpedia: "DBpedia",
-          no_resultados: "Keine Ergebnisse gefunden."
+          no_resultados: "Keine Ergebnisse gefunden.",
         },
         fr: {
           clases: "Classes",
@@ -190,30 +191,35 @@
           usado_en_instancias: "Utilisé dans d'autres instances",
           valores: "Valeurs",
           dbpedia: "DBpedia",
-          no_resultados: "Aucun résultat trouvé."
-        }
+          no_resultados: "Aucun résultat trouvé.",
+        },
       };
+
       function renderResults(data) {
         const contenedor = document.getElementById("resultados");
         contenedor.innerHTML = "";
         const fragment = document.createDocumentFragment();
         let hayResultados = false;
 
-      
         const idioma = languageSelect.value;
-        const categorias = categoriasPorIdioma[idioma] || categoriasPorIdioma["es"];
+        const categorias =
+          categoriasPorIdioma[idioma] || categoriasPorIdioma["es"];
 
         // Renderizar Ontología
-        Object.entries(categorias).forEach(([tipo, nombre]) => {
-          const valor = data[tipo];
-          if (
-            valor &&
-            (Array.isArray(valor)
-              ? valor.length > 0
-              : Object.keys(valor).length > 0)
-          ) {
-            hayResultados = true;
-            fragment.appendChild(createSection(nombre, valor));
+        Object.keys(categorias).forEach((tipo) => {
+          if (tipo !== "dbpedia" && tipo !== "no_resultados" && data[tipo]) {
+            const valor = data[tipo];
+            const nombre = categorias[tipo];
+
+            if (
+              valor &&
+              (Array.isArray(valor)
+                ? valor.length > 0
+                : Object.keys(valor).length > 0)
+            ) {
+              hayResultados = true;
+              fragment.appendChild(createSection(nombre, valor));
+            }
           }
         });
 
@@ -221,12 +227,14 @@
         if (data.descripcion_dbpedia) {
           const dbpediaData = data.descripcion_dbpedia;
           if (Array.isArray(dbpediaData) && dbpediaData.length > 0) {
-            fragment.appendChild(createSection("DBpedia", dbpediaData));
+            fragment.appendChild(
+              createSection(categorias.dbpedia, dbpediaData)
+            );
             hayResultados = true;
           } else if (typeof dbpediaData === "string" && dbpediaData !== "") {
             const section = document.createElement("div");
             const titulo = document.createElement("h3");
-            titulo.textContent = "DBpedia";
+            titulo.textContent = categorias.dbpedia;
             section.appendChild(titulo);
             const p = document.createElement("p");
             p.textContent = dbpediaData;
@@ -237,7 +245,7 @@
         }
         if (!hayResultados) {
           const mensaje = document.createElement("p");
-          mensaje.textContent = "No se encontraron resultados.";
+          mensaje.textContent = categorias.no_resultados;
           fragment.appendChild(mensaje);
         }
         contenedor.appendChild(fragment);
