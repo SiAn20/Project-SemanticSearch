@@ -5,4 +5,4 @@ en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_
 owlready2==0.47
 rdflib==7.1.4
 requests==2.32.3
-gunicorn==21.2.0 
+deep-translator==1.11.4
