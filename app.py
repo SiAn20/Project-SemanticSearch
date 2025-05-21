@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template, jsonify
-from ontology_loader import onto
-from SPARQLWrapper import SPARQLWrapper, JSON
+from services.ontology_loader import onto
+from services.dbpedia import consultar_dbpedia
+from services.translator import traducir_valores
 from deep_translator import GoogleTranslator
 import re
 import spacy
@@ -8,14 +9,6 @@ import os
 
 app = Flask(__name__)
 nlp = spacy.load("en_core_web_sm")
-
-DBPEDIA_ENDPOINTS = {
-    "es": "https://es.dbpedia.org/sparql",
-    "en": "https://dbpedia.org/sparql",
-    "pt": "https://pt.dbpedia.org/sparql",
-    "de": "https://de.dbpedia.org/sparql",
-    "fr": "https://fr.dbpedia.org/sparql",
-}
 
 def normalizar_nombre(nombre):
     nombre = nombre.replace("_", " ")
@@ -26,49 +19,6 @@ def extraer_keywords(frase):
     doc = nlp(frase)
     return [token.lemma_.lower() for token in doc if token.pos_ in ("NOUN", "PROPN", "ADJ")]
 
-def consultar_dbpedia(termino, idioma):
-    endpoint = DBPEDIA_ENDPOINTS.get(idioma, DBPEDIA_ENDPOINTS["en"])
-    sparql = SPARQLWrapper(endpoint)
-    sparql.setReturnFormat(JSON)
-
-    query = f"""
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    PREFIX dbo: <http://dbpedia.org/ontology/>
-
-    SELECT DISTINCT ?abstract WHERE {{
-      ?s rdfs:label ?label ;
-         dbo:abstract ?abstract .
-      FILTER (LANG(?label) = "{idioma}")
-      FILTER (LANG(?abstract) = "{idioma}")
-      FILTER (CONTAINS(LCASE(?label), "{termino.lower()}"))
-    }} LIMIT 1
-    """
-    sparql.setQuery(query)
-
-    try:
-        resultados = sparql.query().convert()
-        if resultados["results"]["bindings"]:
-            return resultados["results"]["bindings"][0]["abstract"]["value"]
-    except Exception as e:
-        print("Error DBpedia:", e)
-    return "No results found in DBpedia."
-def traducir_valores(data, idioma_destino):
-    """
-    Traduce recursivamente strings dentro de dicts y listas
-    usando GoogleTranslator desde 'es' a idioma_destino.
-    """
-    if isinstance(data, str):
-        try:
-            return GoogleTranslator(source='es', target=idioma_destino).translate(data)
-        except Exception as e:
-            print(f"Error traduciendo texto: {e}")
-            return data
-    elif isinstance(data, list):
-        return [traducir_valores(item, idioma_destino) for item in data]
-    elif isinstance(data, dict):
-        return {key: traducir_valores(value, idioma_destino) for key, value in data.items()}
-    else:
-        return data
 
 @app.route('/')
 def index():
