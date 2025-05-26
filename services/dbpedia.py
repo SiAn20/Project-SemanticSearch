@@ -1,4 +1,5 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
+from utils.text_utils import normalizar_nombre
 import json
 
 
@@ -59,7 +60,7 @@ def obtener_productos():
       FILTER (?lang = "en" || ?lang = "es")
       FILTER CONTAINS(LCASE(STR(?tipo)), "cake")
     }
-    LIMIT 1000
+    LIMIT 50
     """
 
     sparql.setQuery(query)
@@ -83,6 +84,7 @@ def obtener_productos():
         print("Error al consultar productos tipo cake:", e)
         return []
 
+obtener_productos()
 
 def obtener_info_productos(resource_url):
     sparql = SPARQLWrapper("http://dbpedia.org/sparql")
@@ -128,3 +130,23 @@ def obtener_info_productos(resource_url):
     data["ingredientNames"] = list(data["ingredientNames"])
 
     return data
+
+def consultar_datos_poblados(consulta, idioma):
+    from deep_translator import GoogleTranslator
+
+    with open("data/productos_cake.json", "r", encoding="utf-8") as archivo:
+        productos = json.load(archivo)
+
+    for producto in productos:
+        nombre_normalizado = normalizar_nombre(producto["nombre"])
+        tipo_normalizado = normalizar_nombre(producto["tipo"].split("/")[-1])
+        consulta_normalizada = normalizar_nombre(consulta)
+
+        nombre_traducido = normalizar_nombre(GoogleTranslator(source=idioma, target='en').translate(producto["nombre"]))
+        tipo_traducido = normalizar_nombre(GoogleTranslator(source=idioma, target='en').translate(producto["tipo"].split("/")[-1]))
+
+        if consulta_normalizada == nombre_normalizado or consulta_normalizada == nombre_traducido:
+             return {**obtener_info_productos(producto["producto"]), "nombre": producto['nombre']}
+
+        if consulta_normalizada == tipo_normalizado or consulta_normalizada == tipo_traducido:
+            return obtener_info_productos(producto["tipo"])
