@@ -1,46 +1,12 @@
 from flask import Flask, request, render_template, jsonify
 from services.ontology_loader import onto
-from services.dbpedia import consultar_dbpedia, obtener_info_productos
-from services.translator import traducir_valores
-from deep_translator import GoogleTranslator
-import re
-import spacy
+from services.dbpedia import consultar_dbpedia, consultar_datos_poblados
+from services.translator import traducir_valores, traducir_ingredientes, traducir_campos_resultados, traducir_texto, traducir_consulta_si_necesario
+from utils.text_utils import normalizar_nombre
 import os
-import json
 
 app = Flask(__name__)
-nlp = spacy.load("en_core_web_sm")
 
-def normalizar_nombre(nombre):
-    nombre = nombre.replace("_", " ")
-    nombre = re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', nombre)
-    return nombre.lower().strip()
-
-def extraer_keywords(frase):
-    doc = nlp(frase)
-    return [token.lemma_.lower() for token in doc if token.pos_ in ("NOUN", "PROPN", "ADJ")]
-
-def consultar_datos_poblados(consulta, idioma):
-    from deep_translator import GoogleTranslator
-
-    with open("data/productos_cake.json", "r", encoding="utf-8") as archivo:
-        productos = json.load(archivo)
-
-    for producto in productos:
-        nombre_normalizado = normalizar_nombre(producto["nombre"])
-        tipo_normalizado = normalizar_nombre(producto["tipo"].split("/")[-1])
-        consulta_normalizada = normalizar_nombre(consulta)
-
-        nombre_traducido = normalizar_nombre(GoogleTranslator(source=idioma, target='en').translate(producto["nombre"]))
-        tipo_traducido = normalizar_nombre(GoogleTranslator(source=idioma, target='en').translate(producto["tipo"].split("/")[-1]))
-
-        if consulta_normalizada == nombre_normalizado or consulta_normalizada == nombre_traducido:
-             return {**obtener_info_productos(producto["producto"]), "nombre": producto['nombre']}
-
-        if consulta_normalizada == tipo_normalizado or consulta_normalizada == tipo_traducido:
-            return obtener_info_productos(producto["tipo"])
-
-    
 
 @app.route('/')
 def index():
@@ -48,17 +14,13 @@ def index():
 
 @app.route('/buscar', methods=['POST'])
 def buscar():
+    """Método principal de búsqueda"""
     consulta_original = request.form['consulta'].strip()
     idioma = request.form.get('idioma', 'en')
 
-    if idioma != 'es':
-        try:
-            consulta_es = GoogleTranslator(source=idioma, target='es').translate(consulta_original)
-        except Exception as e:
-            return jsonify({"error": f"Error traduciendo la consulta: {str(e)}"})
-    else:
-        consulta_es = consulta_original
-
+    # Traducir consulta si es necesario
+    consulta_es = traducir_consulta_si_necesario(consulta_original, idioma)
+    
     palabra = normalizar_nombre(consulta_es)
 
     resultados = {
@@ -88,7 +50,7 @@ def buscar():
                 for prop in instancia.get_properties():
                     props.add(prop.name)
             resultados["propiedades_clase"][clase.name] = list(props)
-            resultados["subclases"].extend([s.name for s in clase.subclasses()])
+            resultados["subclases"].extend([s.name for s in clase.subclases()])
             resultados["instancias_clase"][clase.name] = [i.name for i in clase.instances()]
 
         for sub in clase.subclasses():
@@ -130,49 +92,46 @@ def buscar():
     if not encontrado:
         resultadosDbpedia = consultar_datos_poblados(consulta_original, idioma)
         if resultadosDbpedia and isinstance(resultadosDbpedia, dict):
-            resultados["descripcion_dbpedia"] = GoogleTranslator(source='auto', target=idioma).translate(resultadosDbpedia.get("abstract", ""))
-            resultados["pais"] = resultadosDbpedia.get("country", "")
-
-            ingredientes = resultadosDbpedia.get("ingredientNames", [])
-            ingredientes_list = []
-            if isinstance(ingredientes, list):
-                if len(ingredientes) == 1 and isinstance(ingredientes[0], str):
-                    ingredientes_list = [i.strip() for i in ingredientes[0].split(",")]
-                else:
-                    ingredientes_list = [i.strip() for i in ingredientes]
-
-            if idioma != "en":
-                try:
-                    ingredientes_traducidos = [
-                        GoogleTranslator(source='en', target=idioma).translate(i)
-                        for i in ingredientes_list
-                    ]
-                    resultados["ingredientes"] = ingredientes_traducidos
-                except Exception as e:
-                    resultados["ingredientes"] = ingredientes_list
-            else:
-                resultados["ingredientes"] = ingredientes_list
-
-            resultados["thumbnail"] = resultadosDbpedia.get("thumbnail", "")
-            resultados["nombre"] = resultadosDbpedia.get("nombre", "")
+            # Procesar resultados de DBpedia
+            _procesar_resultados_dbpedia(resultadosDbpedia, idioma, resultados)
 
         if(resultados["descripcion_dbpedia"] == ''):
             resultados["descripcion_dbpedia"] = consultar_dbpedia(consulta_original, idioma)
-        if idioma != 'es':
-            campos_a_traducir = ["descripcion_dbpedia", "valores"]
-            for campo in campos_a_traducir:
-                if campo in resultados:
-                    if isinstance(resultados[campo], str):
-                        resultados[campo] = GoogleTranslator(source='es', target=idioma).translate(resultados[campo])
-                    elif isinstance(resultados[campo], list):
-                        resultados[campo] = [
-                            GoogleTranslator(source='es', target=idioma).translate(texto)
-                            for texto in resultados[campo]
-                        ]
+        
+        # Traducir campos específicos
+        traducir_campos_resultados(resultados, idioma)
 
     resultados = traducir_valores(resultados, idioma)
         
     return jsonify(resultados)
+
+
+def _procesar_resultados_dbpedia(resultadosDbpedia, idioma, resultados):
+    """Procesa y traduce resultados de DBpedia"""
+    # Traducir descripción
+    abstract = resultadosDbpedia.get("abstract", "")
+    if abstract:
+        resultados["descripcion_dbpedia"] = traducir_texto(abstract, 'auto', idioma)
+
+    # Campos que no necesitan traducción
+    resultados["pais"] = resultadosDbpedia.get("country", "")
+    resultados["thumbnail"] = resultadosDbpedia.get("thumbnail", "")
+    resultados["nombre"] = resultadosDbpedia.get("nombre", "")
+
+    # Procesar y traducir ingredientes
+    ingredientes = resultadosDbpedia.get("ingredientNames", [])
+    ingredientes_list = _procesar_lista_ingredientes(ingredientes)
+    resultados["ingredientes"] = traducir_ingredientes(ingredientes_list, idioma)
+
+def _procesar_lista_ingredientes(ingredientes):
+    """Procesa la lista de ingredientes normalizando el formato"""
+    ingredientes_list = []
+    if isinstance(ingredientes, list):
+        if len(ingredientes) == 1 and isinstance(ingredientes[0], str):
+            ingredientes_list = [i.strip() for i in ingredientes[0].split(",")]
+        else:
+            ingredientes_list = [i.strip() for i in ingredientes]
+    return ingredientes_list
 
 
 
