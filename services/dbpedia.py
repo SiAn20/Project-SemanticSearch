@@ -1,4 +1,6 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
+import json
+
 
 DBPEDIA_ENDPOINTS = {
     "es": "https://es.dbpedia.org/sparql",
@@ -29,8 +31,6 @@ def consultar_dbpedia(termino, idioma):
 
     try:
         resultados = sparql.query().convert()
-
-        print(resultados)
         
         if resultados["results"]["bindings"]:
             return resultados["results"]["bindings"][0]["abstract"]["value"]
@@ -39,8 +39,8 @@ def consultar_dbpedia(termino, idioma):
     return "No results found in DBpedia."
 
 
-#Esta funcion simplemente es para obtener todos los productos que estan en
-def obtener_productos_tipo_cake():
+
+def obtener_productos():
     sparql = SPARQLWrapper("https://dbpedia.org/sparql")
     sparql.setReturnFormat(JSON)
 
@@ -67,7 +67,6 @@ def obtener_productos_tipo_cake():
     try:
         resultados = sparql.query().convert()
         productos = []
-
         for r in resultados["results"]["bindings"]:
             productos.append({
                 "producto": r["producto"]["value"],
@@ -76,9 +75,56 @@ def obtener_productos_tipo_cake():
                 "tipo": r["tipo"]["value"],
                 "idioma": r["lang"]["value"]
             })
+        with open("data/productos_cake.json", "w", encoding="utf-8") as f:
+            json.dump(productos, f, ensure_ascii=False, indent=4)
 
         return productos
-
     except Exception as e:
         print("Error al consultar productos tipo cake:", e)
         return []
+
+
+def obtener_info_productos(resource_url):
+    sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+    resource = f"<{resource_url}>"
+
+    query = f"""
+    SELECT ?abstract ?country ?ingredient ?ingredientName ?thumbnail WHERE {{
+        {resource} dbo:abstract ?abstract .
+        OPTIONAL {{ {resource} dbo:country ?country . }}
+        OPTIONAL {{ {resource} dbo:ingredient ?ingredient . }}
+        OPTIONAL {{ {resource} dbo:ingredientName ?ingredientName . }}
+        OPTIONAL {{ {resource} dbo:thumbnail ?thumbnail . }}
+        FILTER (lang(?abstract) = 'en')
+    }}
+    """
+
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+
+    data = {
+        "abstract": None,
+        "country": None,
+        "ingredients": set(),
+        "ingredientNames": set(),
+        "thumbnail": None
+    }
+
+    for result in results["results"]["bindings"]:
+        if "abstract" in result:
+            data["abstract"] = result["abstract"]["value"]
+        if "country" in result:
+            data["country"] = result["country"]["value"]
+        if "ingredient" in result:
+            data["ingredients"].add(result["ingredient"]["value"])
+        if "ingredientName" in result:
+            data["ingredientNames"].add(result["ingredientName"]["value"])
+        if "thumbnail" in result:
+            data["thumbnail"] = result["thumbnail"]["value"]
+
+    # Convert sets to lists for easier JSON serialization if needed
+    data["ingredients"] = list(data["ingredients"])
+    data["ingredientNames"] = list(data["ingredientNames"])
+
+    return data

@@ -68,27 +68,54 @@ function renderResults(data) {
 
   // Renderizar DBpedia
   if (data.descripcion_dbpedia) {
-    const dbpediaData = data.descripcion_dbpedia;
-    if (Array.isArray(dbpediaData) && dbpediaData.length > 0) {
-      fragment.appendChild(createSection(categorias.dbpedia, dbpediaData));
-      hayResultados = true;
-    } else if (typeof dbpediaData === "string" && dbpediaData !== "") {
-      const section = document.createElement("div");
-      const titulo = document.createElement("h3");
-      titulo.textContent = categorias.dbpedia;
-      section.appendChild(titulo);
+    const section = document.createElement("div");
+    section.classList.add("dbpedia-section");
+
+    const titulo = document.createElement("h3");
+    titulo.textContent = data.nombre || categorias.dbpedia;
+    section.appendChild(titulo);
+
+    if (data.descripcion_dbpedia) {
       const p = document.createElement("p");
-      p.textContent = dbpediaData;
+      p.textContent = data.descripcion_dbpedia;
       section.appendChild(p);
-      fragment.appendChild(section);
-      hayResultados = true;
     }
+
+    if (data.pais) {
+      const paisTitulo = document.createElement("h4");
+      paisTitulo.textContent = "Pais:";
+      section.appendChild(paisTitulo);
+      const paisLink = document.createElement("a");
+      paisLink.href = data.pais;
+      paisLink.textContent = data.pais;
+      paisLink.target = "_blank";
+      section.appendChild(paisLink);
+    }
+
+    if (data.ingredientes && Array.isArray(data.ingredientes)) {
+      const ingTitulo = document.createElement("h4");
+      ingTitulo.textContent = "Ingredientes:";
+      section.appendChild(ingTitulo);
+
+      const ul = document.createElement("ul");
+      data.ingredientes.forEach((ing) => {
+        const li = document.createElement("li");
+        li.textContent = ing;
+        ul.appendChild(li);
+      });
+      section.appendChild(ul);
+    }
+
+    fragment.appendChild(section);
+    hayResultados = true;
   }
+
   if (!hayResultados) {
     const mensaje = document.createElement("p");
     mensaje.textContent = categorias.no_resultados;
     fragment.appendChild(mensaje);
   }
+
   contenedor.appendChild(fragment);
   mostrarModal();
 }

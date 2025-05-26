@@ -1,0 +1,2837 @@
+[
+    {
+        "producto": "http://dbpedia.org/resource/Castella",
+        "nombre": "Castella",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Castella",
+        "nombre": "Castella (bizcocho)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Beetroot_cake",
+        "nombre": "Beetroot cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cupcake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Beetroot_cake",
+        "nombre": "Beetroot cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Beetroot_cake",
+        "nombre": "Beetroot cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sheet_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Put_chai_ko",
+        "nombre": "Put chai ko",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Put_chai_ko",
+        "nombre": "Put chai ko",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Moron_(food)",
+        "nombre": "Morón (plato)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Moron_(food)",
+        "nombre": "Moron (food)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Memela",
+        "nombre": "Memela",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Memela",
+        "nombre": "Memela",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Moravian_sugar_cake",
+        "nombre": "Pastel de azúcar moravo",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Coffee_Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Moravian_sugar_cake",
+        "nombre": "Moravian sugar cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Coffee_Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Shortcake",
+        "nombre": "Shortcake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Shortcake",
+        "nombre": "Shortcake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Princess_cake",
+        "nombre": "Prinsesstårta",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Princess_cake",
+        "nombre": "Princess cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Prinzregententorte",
+        "nombre": "Prinzregententorte",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Prinzregententorte",
+        "nombre": "Prinzregententorte",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Battenberg_cake",
+        "nombre": "Battenberg cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Battenberg_cake",
+        "nombre": "Battenberg cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Boûkète",
+        "nombre": "Boûkète",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Boûkète",
+        "nombre": "Boûkète",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Allahabadi_cake",
+        "nombre": "Allahabadi cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Fruit_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Appam",
+        "nombre": "Appam",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Appam",
+        "nombre": "Appam",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Hotteok",
+        "nombre": "Hottok",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Hotteok",
+        "nombre": "Hotteok",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Cupcake",
+        "nombre": "Cupcake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Cupcake",
+        "nombre": "Cupcake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Cupcone",
+        "nombre": "Cupcone",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Dacquoise",
+        "nombre": "Dacquoise",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Dacquoise",
+        "nombre": "Dacquoise",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Depression_cake",
+        "nombre": "Depression cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Devil's_food_cake",
+        "nombre": "Devil's food cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Devil's_food_cake",
+        "nombre": "Pastel del Diablo",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Donauwelle",
+        "nombre": "Donauwelle",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Dosa_(food)",
+        "nombre": "Dosa",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Dosa_(food)",
+        "nombre": "Dosa (food)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Dundee_cake",
+        "nombre": "Dundee cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Fruit_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Injera",
+        "nombre": "Injera",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Injera",
+        "nombre": "Injera",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Jaffa_Cakes",
+        "nombre": "Galleta Jaffa",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Jaffa_Cakes",
+        "nombre": "Jaffa Cakes",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Joffre_cake",
+        "nombre": "Joffre cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kutsinta",
+        "nombre": "Kutsinta",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kvæfjord_cake",
+        "nombre": "Kvæfjord cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Köylü_pastası",
+        "nombre": "Köylü pastası",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Smörgåstårta",
+        "nombre": "Smörgåstårta",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Smörgåstårta",
+        "nombre": "Smörgåstårta",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Tin_roof_pie",
+        "nombre": "Tin roof pie",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Ice_cream_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Pek_nga",
+        "nombre": "Pek nga",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Truffade",
+        "nombre": "Truffade",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Truffade",
+        "nombre": "Truffade",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Washington_pie",
+        "nombre": "Washington pie",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Cherpumple",
+        "nombre": "Cherpumple",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Cherry_cake",
+        "nombre": "Cherry cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Chiffon_cake",
+        "nombre": "Chiffon cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Chiffon_cake",
+        "nombre": "Chifón",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Espasol",
+        "nombre": "Espasol",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Espasol",
+        "nombre": "Espasol",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Esterházy_torte",
+        "nombre": "Tarta Esterházy",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Esterházy_torte",
+        "nombre": "Esterházy torte",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Genoise",
+        "nombre": "Genoise",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Genoise",
+        "nombre": "Genovesa",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Love_cake",
+        "nombre": "Love cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Opera_cake",
+        "nombre": "Tarta ópera",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Opera_cake",
+        "nombre": "Opera cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Syrniki",
+        "nombre": "Syrniki",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Syrniki",
+        "nombre": "Syrniki",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Sarawak_layer_cake",
+        "nombre": "Sarawak layer cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Torta_alla_Monferrina",
+        "nombre": "Torta alla Monferrina",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Šakotis",
+        "nombre": "Šakotis",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Šakotis",
+        "nombre": "Šakotis",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Putli_mandi",
+        "nombre": "Putli mandi",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Quesadilla_Salvadoreña",
+        "nombre": "Quesadilla Salvadoreña",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pound_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Quarkkäulchen",
+        "nombre": "Quarkkeulchen",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Quarkkäulchen",
+        "nombre": "Quarkkäulchen",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Tirolerkuchen",
+        "nombre": "Tirolerkuchen",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Coffee_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Funing_big_cake",
+        "nombre": "Funing big cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Gansito",
+        "nombre": "Gansito",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Snack_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Gansito",
+        "nombre": "Gansito",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Snack_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Botamochi",
+        "nombre": "Botamochi",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Botamochi",
+        "nombre": "Botamochi",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Boulou",
+        "nombre": "Boulou",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Boxty",
+        "nombre": "Boxty",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Potato_pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Boxty",
+        "nombre": "Boxty",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Potato_pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Confetti_cake",
+        "nombre": "Confetti cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Crempog",
+        "nombre": "Crempog",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Danbing",
+        "nombre": "Danbing",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Lady_Baltimore_cake",
+        "nombre": "Lady Baltimore cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Lahoh",
+        "nombre": "Laḥoḥ",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Lahoh",
+        "nombre": "Lahoh",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Orange_creamsicle_cake",
+        "nombre": "Orange creamsicle cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Berlingozzo",
+        "nombre": "Berlingozzo",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Liver_cake",
+        "nombre": "Liver cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bløtkake",
+        "nombre": "Bløtkake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Cachapa",
+        "nombre": "Cachapa",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Cachapa",
+        "nombre": "Cachapa",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Chipa_guasu",
+        "nombre": "Chipa guasu",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Chipa_guasu",
+        "nombre": "Chipa guazú",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Chocolate_cake",
+        "nombre": "Chocolate cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Chocolate_cake",
+        "nombre": "Pastel de chocolate",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Cholermus",
+        "nombre": "Cholermus",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Chongyang_cake",
+        "nombre": "Chongyang cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Sno_Balls",
+        "nombre": "Sno Balls",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Clementine_cake",
+        "nombre": "Clementine cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Zongzi",
+        "nombre": "Zongzi",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Zongzi",
+        "nombre": "Zongzi",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Frankfurter_Kranz",
+        "nombre": "Frankfurter Kranz",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Friand",
+        "nombre": "Friand",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Fruitcake",
+        "nombre": "Fruitcake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Fruitcake",
+        "nombre": "Pastel de fruta",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Fudge_cake",
+        "nombre": "Fudge cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Fudge_cake",
+        "nombre": "Pastel de dulce de azúcar",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Hortobágyi_palacsinta",
+        "nombre": "Hortobágyi palacsinta",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Hortobágyi_palacsinta",
+        "nombre": "Hortobágyi palacsinta",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Hot_milk_cake",
+        "nombre": "Hot milk cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Butter_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Hot_milk_cake",
+        "nombre": "Hot milk cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Ice_cream_cake",
+        "nombre": "Tarta helada",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Ice_cream_cake",
+        "nombre": "Ice cream cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Khanom_bodin",
+        "nombre": "Khanom bodin",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Khanom_bueang",
+        "nombre": "Khanom bueang",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Khanom_farang_kudi_chin",
+        "nombre": "Khanom farang kudi chin",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Khobz_tounes",
+        "nombre": "Pan de bey",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Khobz_tounes",
+        "nombre": "Khobz tounes",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kouign-amann",
+        "nombre": "Kouign amann",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kouign-amann",
+        "nombre": "Kouign-amann",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kransekage",
+        "nombre": "Kransekake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kransekage",
+        "nombre": "Kransekage",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kue_ape",
+        "nombre": "Kue ape",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kue_bagea",
+        "nombre": "Kue bagea",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kue_bingka",
+        "nombre": "Kue bingka",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kue_bolu",
+        "nombre": "Kue bolu",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kue_cubit",
+        "nombre": "Kue cubit",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kue_kembang_goyang",
+        "nombre": "Kue kembang goyang",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kue_leker",
+        "nombre": "Kue leker",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kue_makmur",
+        "nombre": "Kue makmur",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kue_mangkok",
+        "nombre": "Kue mangkok",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cupcake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kue_pinyaram",
+        "nombre": "Kue pinyaram",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Rum_baba",
+        "nombre": "Babà",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Rum_baba",
+        "nombre": "Rum baba",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Malawah",
+        "nombre": "Malawah",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Stollen",
+        "nombre": "Christstollen",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Fruit_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Stollen",
+        "nombre": "Stollen",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Fruit_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Suncake_(Taiwan)",
+        "nombre": "Suncake (Taiwan)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Tu_(cake)",
+        "nombre": "Tu (cake)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cheese_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Marble_cake",
+        "nombre": "Bizcocho de mármol",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Marble_cake",
+        "nombre": "Marble cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Mchawcha",
+        "nombre": "Mchawcha",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Međimurska_gibanica",
+        "nombre": "Međimurska gibanica",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Ontbijtkoek",
+        "nombre": "Ontbijtkoek",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Ontbijtkoek",
+        "nombre": "Ontbijtkoek",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Murtabak",
+        "nombre": "Murtabak",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Murtabak",
+        "nombre": "Murtabak",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Swiss_roll",
+        "nombre": "Brazo de gitano",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Swiss_roll",
+        "nombre": "Swiss roll",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bánh",
+        "nombre": "Bánh",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bánh",
+        "nombre": "Bánh",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Tteok",
+        "nombre": "Tteok",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Tteok",
+        "nombre": "Ttok",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Twinkie",
+        "nombre": "Twinkie",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Snack_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Twinkie",
+        "nombre": "Twinkie",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Snack_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/White_sugar_sponge_cake",
+        "nombre": "Pastel de azúcar blanco",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/White_sugar_sponge_cake",
+        "nombre": "White sugar sponge cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Doberge_cake",
+        "nombre": "Doberge cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Dowry_cake",
+        "nombre": "Jia nu bing",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Dowry_cake",
+        "nombre": "Dowry cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Fyrstekake",
+        "nombre": "Fyrstekake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Galette",
+        "nombre": "Galette",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Galette",
+        "nombre": "Galette",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Garash_cake",
+        "nombre": "Garash cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Garash_cake",
+        "nombre": "Garash (pastel)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Gâteau_magique",
+        "nombre": "Gâteau magique",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Gâteau_nantais",
+        "nombre": "Gâteau nantais",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Heavy_cake",
+        "nombre": "Heavy cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Jewish_apple_cake",
+        "nombre": "Jewish apple cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Karydopita",
+        "nombre": "Karydopita",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Laklak_(food)",
+        "nombre": "Laklak (food)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Lamington",
+        "nombre": "Lamington",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Lamington",
+        "nombre": "Lamington",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Lane_cake",
+        "nombre": "Lane cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Layer_cake",
+        "nombre": "Pastel en capas",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Layer_cake",
+        "nombre": "Layer cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Lebkuchen",
+        "nombre": "Lebkuchen",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Lebkuchen",
+        "nombre": "Lebkuchen",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Linzer_torte",
+        "nombre": "Tarta Linzer",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Linzer_torte",
+        "nombre": "Linzer torte",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Lolly_cake",
+        "nombre": "Lolly cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Sfouf",
+        "nombre": "Sfouf",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Sfouf",
+        "nombre": "Sfouf",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Miodownik_(cake)",
+        "nombre": "Miodownik (cake)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Palatschinke",
+        "nombre": "Palatschinken",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Palatschinke",
+        "nombre": "Palatschinke",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Crêpe",
+        "nombre": "Crêpe",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Crêpe",
+        "nombre": "Crep",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Amandine_(dessert)",
+        "nombre": "Amandine (dessert)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layered_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Angel_cake",
+        "nombre": "Angel cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Angel_food_cake",
+        "nombre": "Angel food cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Angel_food_cake",
+        "nombre": "Pastel de ángel",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bredele",
+        "nombre": "Bredele",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bredele",
+        "nombre": "Bredele",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Breudher",
+        "nombre": "Breudher",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Broa_de_mel",
+        "nombre": "Broa de mel",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Caraway_seed_cake",
+        "nombre": "Caraway seed cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Caraway_seed_cake",
+        "nombre": "Pastel de semilla de alcaravea",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Daral_(food)",
+        "nombre": "Daral (food)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Dirt_cake",
+        "nombre": "Dirt cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Fanouropita",
+        "nombre": "Fanouropita",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Far_Breton",
+        "nombre": "Far Breton",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Far_Breton",
+        "nombre": "Far bretón",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Farinata",
+        "nombre": "Farinata",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Farinata",
+        "nombre": "Fainá",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Fat_rascal",
+        "nombre": "Fat rascal",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Flourless_chocolate_cake",
+        "nombre": "Flourless chocolate cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Flourless_chocolate_cake",
+        "nombre": "Pastel de chocolate sin harina",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Fläskpannkaka",
+        "nombre": "Fläskpannkaka",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Foam_cake",
+        "nombre": "Foam cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/German_chocolate_cake",
+        "nombre": "German chocolate cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/German_chocolate_cake",
+        "nombre": "Pastel alemán",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Gooey_butter_cake",
+        "nombre": "Gooey butter cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Happy_cake",
+        "nombre": "Happy cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kaiserschmarrn",
+        "nombre": "Kaiserschmarrn",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kaiserschmarrn",
+        "nombre": "Kaiserschmarrn",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kamir",
+        "nombre": "Kamir",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kentucky_jam_cake",
+        "nombre": "Kentucky jam cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kornigou",
+        "nombre": "Kornigou",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Lekach",
+        "nombre": "Lekach",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Rab_cake",
+        "nombre": "Rab cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Red_velvet_cake",
+        "nombre": "Pastel de terciopelo rojo",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Red_velvet_cake",
+        "nombre": "Red velvet cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Babka",
+        "nombre": "Babka",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Babka",
+        "nombre": "Babka",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Baghrir",
+        "nombre": "Baghrir",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Baghrir",
+        "nombre": "Beghrir",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Hummingbird_cake",
+        "nombre": "Tarta colibrí",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Hummingbird_cake",
+        "nombre": "Hummingbird cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Mücver",
+        "nombre": "Mücver",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Mücver",
+        "nombre": "Mücver",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Tahinopita",
+        "nombre": "Tahinopita",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Tahinopita",
+        "nombre": "Tahinopita",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Pandan_cake",
+        "nombre": "Pastel de pandano",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Pandan_cake",
+        "nombre": "Pandan cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Streuselkuchen",
+        "nombre": "Streuselkuchen",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Streuselkuchen",
+        "nombre": "Streuselkuchen",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Tipsy_cake",
+        "nombre": "Tipsy cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Wingko",
+        "nombre": "Wingko",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Chalbori-ppang",
+        "nombre": "Chalbori-ppang",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bika_ambon",
+        "nombre": "Bika ambon",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bing_(bread)",
+        "nombre": "Bing (pan)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bing_(bread)",
+        "nombre": "Bing (bread)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bizcocho",
+        "nombre": "Bizcocho",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bizcocho",
+        "nombre": "Bizcocho (Uruguay)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Black_bun",
+        "nombre": "Black bun",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Fruit_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Black_bun",
+        "nombre": "Black bun",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Fruit_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Blini",
+        "nombre": "Blini",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Blini",
+        "nombre": "Blini",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Sweetheart_cake",
+        "nombre": "Pastelillo de esposa",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Sweetheart_cake",
+        "nombre": "Sweetheart cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Coconut_cake",
+        "nombre": "Coconut cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Coffee_and_walnut_cake",
+        "nombre": "Coffee and walnut cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Coffee_cake",
+        "nombre": "Coffee cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Eccles_cake",
+        "nombre": "Eccles cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Eccles_cake",
+        "nombre": "Pastel de Eccles",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Egg_waffle",
+        "nombre": "Egg waffle",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Egg_waffle",
+        "nombre": "Gai daan jai",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Herman_cake",
+        "nombre": "Herman cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Torta",
+        "nombre": "Torta",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Torta",
+        "nombre": "Torta (pan plano)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Toto_(dessert)",
+        "nombre": "Toto (dessert)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Zingers",
+        "nombre": "Zingers",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Snack_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Spring_pancake",
+        "nombre": "Spring pancake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Zwetschgenkuchen",
+        "nombre": "Zwetschgenkuchen",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sheet_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Red_bean_cake",
+        "nombre": "Pastel de judía azuki",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Red_bean_cake",
+        "nombre": "Red bean cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Sesame_seed_cake",
+        "nombre": "Sesame seed cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Wuzetka",
+        "nombre": "Wuzetka",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Salmon_burger",
+        "nombre": "Salmon burger",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Fishcake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Avocado_cake",
+        "nombre": "Avocado cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bolo_de_mel",
+        "nombre": "Bolo de mel",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bolo_de_mel",
+        "nombre": "Bolo de mel",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bolu_kukus",
+        "nombre": "Bolu kukus",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cupcake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Borlengo",
+        "nombre": "Borlengo",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Buko_pandan_cake",
+        "nombre": "Buko pandan cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bulla_cake",
+        "nombre": "Bulla cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bulla_cake",
+        "nombre": "Bulla cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bundt_cake",
+        "nombre": "Bundt cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bundt_cake",
+        "nombre": "Bizcocho bundt",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Butterkuchen",
+        "nombre": "Butterkuchen",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Butterkuchen",
+        "nombre": "Butterkuchen",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bánh_chuối",
+        "nombre": "Bánh chuối",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bánh_da_lợn",
+        "nombre": "Bánh da lợn",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bánh_da_lợn",
+        "nombre": "Bánh da lợn",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Bánh_khoai_mì",
+        "nombre": "Bánh khoai mì",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Plum_cake",
+        "nombre": "Plum cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Fig_cake",
+        "nombre": "Fig cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Financier_(cake)",
+        "nombre": "Financier",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Financier_(cake)",
+        "nombre": "Financier (cake)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Groom's_cake",
+        "nombre": "Groom's cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Groom's_cake",
+        "nombre": "Pastel del novio",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Warm_ice_cream",
+        "nombre": "Warm ice cream",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kuzumochi",
+        "nombre": "Kuzumochi",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Buccellato",
+        "nombre": "Buccellato",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Buccellato",
+        "nombre": "Buccellato",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Oladyi",
+        "nombre": "Oladyi",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Carrot_cake",
+        "nombre": "Carrot cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cupcake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Carrot_cake",
+        "nombre": "Carrot cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Carrot_cake",
+        "nombre": "Carrot cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sheet_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Carrot_cake",
+        "nombre": "Pastel de zanahoria",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cupcake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Carrot_cake",
+        "nombre": "Pastel de zanahoria",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Carrot_cake",
+        "nombre": "Pastel de zanahoria",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sheet_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Castagnaccio",
+        "nombre": "Castagnaccio",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Castagnaccio",
+        "nombre": "Castagnaccio",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Cevizli_Irmik_Tatlısı",
+        "nombre": "Cevizli Irmik Tatlısı",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Chakuli_pitha",
+        "nombre": "Chakuli pitha",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Chakuli_pitha",
+        "nombre": "Chakuli pitha",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Chantilly_cake",
+        "nombre": "Chantilly cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Christmas_cake",
+        "nombre": "Christmas cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Fruitcake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Christmas_cake",
+        "nombre": "Pastel de Navidad",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Fruitcake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/King_cake",
+        "nombre": "Galette des Rois",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/King_cake",
+        "nombre": "King cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kladdkaka",
+        "nombre": "Kladdkaka",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Chocolate_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Kladdkaka",
+        "nombre": "Kladdkaka",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Chocolate_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Klappertaart",
+        "nombre": "Klappertaart",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Roti_bolen",
+        "nombre": "Roti bolen",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Potato_pancake",
+        "nombre": "Kartoffelpuffer",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Potato_pancake",
+        "nombre": "Potato pancake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Sponge_cake",
+        "nombre": "Bizcocho",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Sponge_cake",
+        "nombre": "Sponge cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Torta_caprese",
+        "nombre": "Torta caprese",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Flourless_chocolate_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Torta_caprese",
+        "nombre": "Torta caprese",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Flourless_chocolate_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Wedding_cake",
+        "nombre": "Pastel de bodas",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Wedding_cake",
+        "nombre": "Wedding cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Madeira_cake",
+        "nombre": "Pastel de Madeira",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Madeira_cake",
+        "nombre": "Madeira cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Madeleine_(cake)",
+        "nombre": "Magdalena (alimento)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Madeleine_(cake)",
+        "nombre": "Madeleine (cake)",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Zuger_Kirschtorte",
+        "nombre": "Zuger Kirschtorte",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Layer_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Whoopie_pie",
+        "nombre": "Pastel Whoopie",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Whoopie_pie",
+        "nombre": "Whoopie pie",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Tres_leches_cake",
+        "nombre": "Tres leches",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Tres_leches_cake",
+        "nombre": "Tres leches cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Sponge_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Gundel_pancake",
+        "nombre": "Gundel pancake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Gur_cake",
+        "nombre": "Gur cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Gyabrag",
+        "nombre": "Gyabrag",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Stack_cake",
+        "nombre": "Stack cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/St._Honoré_cake",
+        "nombre": "Tarta Saint Honoré",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/St._Honoré_cake",
+        "nombre": "St. Honoré cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Ploye",
+        "nombre": "Ploye",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Poffertjes",
+        "nombre": "Poffertjes",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Poffertjes",
+        "nombre": "Poffertjes",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Pol_Pani",
+        "nombre": "Pol Pani",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Uirō",
+        "nombre": "Uirō",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Uirō",
+        "nombre": "Uirō",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Snack_cake",
+        "nombre": "Snack cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Torta_delle_rose",
+        "nombre": "Torta delle rose",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Totché",
+        "nombre": "Totché",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Flaó",
+        "nombre": "Flaó",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cheesecake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Flaó",
+        "nombre": "Flaó",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cheesecake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Palitaw",
+        "nombre": "Palitaw",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Palitaw",
+        "nombre": "Palitaw",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Rice_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Schmoo_torte",
+        "nombre": "Schmoo torte",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Upside-down_cake",
+        "nombre": "Upside-down cake ('pastel al revés')",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Upside-down_cake",
+        "nombre": "Upside-down cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Munini-imo",
+        "nombre": "Munini-imo",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Torte",
+        "nombre": "Torte",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Simnel_cake",
+        "nombre": "Simnel cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Fruitcake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Wacky_cake",
+        "nombre": "Wacky cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Portokalopita",
+        "nombre": "Portokalópita",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Portokalopita",
+        "nombre": "Portokalopita",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Sheet_cake",
+        "nombre": "Sheet cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Serabi",
+        "nombre": "Serabi",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Serabi",
+        "nombre": "Serabi",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Seri_muka",
+        "nombre": "Seri muka",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Pachade",
+        "nombre": "Pachade",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Pain_d'épices",
+        "nombre": "Pain d'épices",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Pain_d'épices",
+        "nombre": "Pain d'épices",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Pain_de_Gênes",
+        "nombre": "Pain de Gênes",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Rum_cake",
+        "nombre": "Pastel de ron",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Rum_cake",
+        "nombre": "Rum cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Sachertorte",
+        "nombre": "Tarta Sacher",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Sachertorte",
+        "nombre": "Sachertorte",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Raisin_cake",
+        "nombre": "Raisin cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Spekkoek",
+        "nombre": "Spekkoek",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Spekkoek",
+        "nombre": "Spekkoek",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Staffordshire_oatcake",
+        "nombre": "Staffordshire oatcake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Torta_Tre_Monti",
+        "nombre": "Torta Tre Monti",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Panpepato",
+        "nombre": "Panpepato",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Panpepato",
+        "nombre": "Panpepato",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Roti_jala",
+        "nombre": "Roti jala",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Pan_de_Pascua",
+        "nombre": "Pan de Pascua",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Pan_de_Pascua",
+        "nombre": "Pan de Pascua",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Paper_wrapped_cake",
+        "nombre": "Pastel envuelto en papel",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Paper_wrapped_cake",
+        "nombre": "Paper wrapped cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Spanische_Windtorte",
+        "nombre": "Spanische Windtorte",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Rainbow_cookie",
+        "nombre": "Pastel arcoíris",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Rainbow_cookie",
+        "nombre": "Rainbow cookie",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Tlacoyo",
+        "nombre": "Tlacoyo",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "es"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Tlacoyo",
+        "nombre": "Tlacoyo",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Pancake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Tunis_cake",
+        "nombre": "Tunis cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Madeira_cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Rigójancsi",
+        "nombre": "Rigójancsi",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Vitréais",
+        "nombre": "Vitréais",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Yueguangbing",
+        "nombre": "Yueguangbing",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Mooncake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Wine_cake",
+        "nombre": "Wine cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    },
+    {
+        "producto": "http://dbpedia.org/resource/Spice_cake",
+        "nombre": "Spice cake",
+        "sabor": "N/A",
+        "tipo": "http://dbpedia.org/resource/Cake",
+        "idioma": "en"
+    }
+]
