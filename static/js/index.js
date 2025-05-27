@@ -105,17 +105,29 @@ function renderizarDBpedia(data, categorias, fragment) {
   titulo.textContent = data.nombre || categorias.dbpedia;
   section.appendChild(titulo);
 
-  // Descripción
+  // Descripción y enlace
   if (data.descripcion_dbpedia) {
+    const partes = data.descripcion_dbpedia.split("🔗 Más información:");
+    const descripcion = partes[0].trim();
+    const enlace = partes[1] ? partes[1].trim() : null;
+
     const p = document.createElement("p");
-    p.textContent = data.descripcion_dbpedia;
+    p.textContent = descripcion;
     section.appendChild(p);
+
+    if (enlace) {
+      const link = document.createElement("a");
+      link.href = enlace;
+      link.textContent = "Ver en DBpedia";
+      link.target = "_blank";
+      section.appendChild(link);
+    }
   }
 
   // País
   if (data.pais) {
     const paisTitulo = document.createElement("h4");
-    paisTitulo.textContent = "Pais:";
+    paisTitulo.textContent = "País:";
     section.appendChild(paisTitulo);
 
     const paisLink = document.createElement("a");

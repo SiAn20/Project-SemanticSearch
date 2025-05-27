@@ -1,7 +1,7 @@
+import requests
 from SPARQLWrapper import SPARQLWrapper, JSON
 from utils.text_utils import normalizar_nombre
 import json
-
 
 DBPEDIA_ENDPOINTS = {
     "es": "https://es.dbpedia.org/sparql",
@@ -15,29 +15,82 @@ def consultar_dbpedia(termino, idioma):
     endpoint = DBPEDIA_ENDPOINTS.get(idioma, DBPEDIA_ENDPOINTS["en"])
     sparql = SPARQLWrapper(endpoint)
     sparql.setReturnFormat(JSON)
+    termino_limpio = termino.strip().lower()
 
-    query = f"""
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    PREFIX dbo: <http://dbpedia.org/ontology/>
+    def obtener_recurso(filtro):
+        query = f"""
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT DISTINCT ?s WHERE {{
+          ?s rdfs:label ?label .
+          FILTER (LANG(?label) = "{idioma}")
+          FILTER ({filtro})
+        }} LIMIT 2
+        """
+        sparql.setQuery(query)
+        try:
+            resultados = sparql.query().convert()
+            if resultados["results"]["bindings"]:
+                return resultados["results"]["bindings"][0]["s"]["value"]
+        except Exception as e:
+            print("⚠️ Error al obtener recurso DBpedia:", e)
+        return None
 
-    SELECT DISTINCT ?abstract WHERE {{
-      ?s rdfs:label ?label ;
-         dbo:abstract ?abstract .
-      FILTER (LANG(?label) = "{idioma}")
-      FILTER (LANG(?abstract) = "{idioma}")
-      FILTER (CONTAINS(LCASE(?label), "{termino.lower()}"))
-    }} LIMIT 1
-    """
-    sparql.setQuery(query)
+    def obtener_abstract(recurso):
+        query = f"""
+        PREFIX dbo: <http://dbpedia.org/ontology/>
+        SELECT ?abstract WHERE {{
+          <{recurso}> dbo:abstract ?abstract .
+          FILTER (LANG(?abstract) = "{idioma}")
+        }} LIMIT 2
+        """
+        sparql.setQuery(query)
+        try:
+            resultados = sparql.query().convert()
+            if resultados["results"]["bindings"]:
+                abstract = resultados["results"]["bindings"][0]["abstract"]["value"]
+                return f"{abstract}\n\n🔗 Más información: {recurso}"
+        except Exception as e:
+            print("⚠️ Error al obtener abstract DBpedia:", e)
+        return None
+    def usar_lookup_api(termino):
+        try:
+            url = "https://lookup.dbpedia.org/api/search/KeywordSearch"
+            headers = {"Accept": "application/json"}
+            params = {"QueryString": termino, "MaxHits": 1}
+            response = requests.get(url, headers=headers, params=params, timeout=10)
 
-    try:
-        resultados = sparql.query().convert()
-        
-        if resultados["results"]["bindings"]:
-            return resultados["results"]["bindings"][0]["abstract"]["value"]
-    except Exception as e:
-        print("Error DBpedia:", e)
-    return "No results found in DBpedia."
+            if response.status_code == 200:
+                data = response.json()
+                if data["results"]:
+                    res = data["results"][0]
+                    desc = res.get("description", "")
+                    uri = res.get("uri", "")
+                    return f"{desc}\n\n🔗 Más información: {uri}"
+        except Exception as e:
+            print("⚠️ Error al usar Lookup API:", e)
+        return "No se encontraron resultados en DBpedia (incluyendo búsqueda rápida)."
+    
+    # Paso 1: intentar con STRSTARTS
+    filtro_1 = f'STRSTARTS(LCASE(STR(?label)), "{termino_limpio}")'
+    recurso = obtener_recurso(filtro_1)
+
+    # Paso 2: si falla, intentar con CONTAINS
+    if not recurso:
+        filtro_2 = f'CONTAINS(LCASE(STR(?label)), "{termino_limpio}")'
+        recurso = obtener_recurso(filtro_2)
+
+    # Paso 3: si hay recurso, buscar su abstract
+    if recurso:
+        resultado = obtener_abstract(recurso)
+        if resultado:
+            return resultado
+        else:
+            return f"No se encontró descripción para el recurso: {recurso}"
+    
+    # Paso 4: Fallback a Lookup API
+    return usar_lookup_api(termino)
+
+    return "No se encontraron resultados en DBpedia."
 
 
 
@@ -60,7 +113,7 @@ def obtener_productos():
       FILTER (?lang = "en" || ?lang = "es")
       FILTER CONTAINS(LCASE(STR(?tipo)), "cake")
     }
-    LIMIT 50
+    LIMIT 2
     """
 
     sparql.setQuery(query)
