@@ -80,7 +80,14 @@ function renderizarOntologia(data, categorias, fragment) {
   let hayResultados = false;
 
   Object.keys(categorias).forEach((tipo) => {
-    if (tipo !== "dbpedia" && tipo !== "no_resultados" && data[tipo]) {
+    if (
+      tipo !== "dbpedia" &&
+      tipo !== "pais" &&
+      tipo !== "descripcion_dbpedia" &&
+      tipo !== "ingredientes" &&
+      tipo !== "no_resultados" &&
+      data[tipo]
+    ) {
       const valor = data[tipo];
       const nombre = categorias[tipo];
 
@@ -115,7 +122,7 @@ function renderizarDBpedia(data, categorias, fragment) {
   // País
   if (data.pais) {
     const paisTitulo = document.createElement("h4");
-    paisTitulo.textContent = "Pais:";
+    paisTitulo.textContent = categorias.pais;
     section.appendChild(paisTitulo);
 
     const paisLink = document.createElement("a");
@@ -128,7 +135,7 @@ function renderizarDBpedia(data, categorias, fragment) {
   // Ingredientes
   if (data.ingredientes && Array.isArray(data.ingredientes)) {
     const ingTitulo = document.createElement("h4");
-    ingTitulo.textContent = "Ingredientes:";
+    ingTitulo.textContent = categorias.ingredientes;
     section.appendChild(ingTitulo);
 
     const ul = document.createElement("ul");

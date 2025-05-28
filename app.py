@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, jsonify
 from services.ontology_loader import onto
 from services.dbpedia import consultar_dbpedia, consultar_datos_poblados
-from services.translator import traducir_valores, traducir_ingredientes, traducir_campos_resultados, traducir_texto, traducir_consulta_si_necesario
+from services.translator import traducir_valores, traducir_ingredientes, traducir_campos_resultados, traducir_texto, traducir_consulta_si_necesario, traducir_valores_ontologia
 from utils.text_utils import normalizar_nombre
 import os
 
@@ -98,10 +98,12 @@ def buscar():
         if(resultados["descripcion_dbpedia"] == ''):
             resultados["descripcion_dbpedia"] = consultar_dbpedia(consulta_original, idioma)
         
-        # Traducir campos específicos
-        traducir_campos_resultados(resultados, idioma)
 
-    resultados = traducir_valores(resultados, idioma)
+    if idioma != 'es':
+        try:
+            resultados = traducir_valores_ontologia(resultados, idioma)
+        except Exception as e:
+            print(f"Error al traducir resultados: {e}")
         
     return jsonify(resultados)
 

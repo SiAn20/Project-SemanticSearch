@@ -20,6 +20,9 @@ export const categoriasPorIdioma = {
     usado_en_instancias: "Usado en otras instancias",
     valores: "Valores",
     dbpedia: "DBpedia",
+    pais: "País",
+    descripcion_dbpedia: "Descripción",
+    ingredientes: "Ingredientes",
     no_resultados: "No se encontraron resultados.",
   },
   en: {
@@ -35,6 +38,9 @@ export const categoriasPorIdioma = {
     usado_en_instancias: "Used in other instances",
     valores: "Values",
     dbpedia: "DBpedia",
+    pais: "Country",
+    descripcion_dbpedia: "Description",
+    ingredientes: "Ingredients",
     no_resultados: "No results found.",
   },
   pt: {
@@ -50,6 +56,9 @@ export const categoriasPorIdioma = {
     usado_en_instancias: "Usado em outras instâncias",
     valores: "Valores",
     dbpedia: "DBpedia",
+    pais: "País",
+    descripcion_dbpedia: "Descrição",
+    ingredientes: "Ingredientes",
     no_resultados: "Nenhum resultado encontrado.",
   },
   de: {
@@ -65,6 +74,9 @@ export const categoriasPorIdioma = {
     usado_en_instancias: "Verwendet in anderen Instanzen",
     valores: "Werte",
     dbpedia: "DBpedia",
+    pais: "Land",
+    descripcion_dbpedia: "Beschreibung",
+    ingredientes: "Zutaten",
     no_resultados: "Keine Ergebnisse gefunden.",
   },
   fr: {
@@ -80,6 +92,9 @@ export const categoriasPorIdioma = {
     usado_en_instancias: "Utilisé dans d'autres instances",
     valores: "Valeurs",
     dbpedia: "DBpedia",
+    pais: "Pays",
+    descripcion_dbpedia: "Description",
+    ingredientes: "Ingrédients",
     no_resultados: "Aucun résultat trouvé.",
   },
 };
