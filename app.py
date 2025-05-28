@@ -50,7 +50,7 @@ def buscar():
                 for prop in instancia.get_properties():
                     props.add(prop.name)
             resultados["propiedades_clase"][clase.name] = list(props)
-            resultados["subclases"].extend([s.name for s in clase.subclases()])
+            resultados["subclases"].extend([s.name for s in clase.subclasses()])
             resultados["instancias_clase"][clase.name] = [i.name for i in clase.instances()]
 
         for sub in clase.subclasses():
