@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, jsonify
 from services.ontology_loader import onto
 from services.dbpedia import consultar_dbpedia, consultar_datos_poblados
-from services.translator import traducir_valores, traducir_ingredientes, traducir_campos_resultados, traducir_texto, traducir_consulta_si_necesario
+from services.translator import traducir_ingredientes, traducir_texto, traducir_consulta_si_necesario, traducir_valores_ontologia
 from utils.text_utils import normalizar_nombre
 import os
 
@@ -50,7 +50,7 @@ def buscar():
                 for prop in instancia.get_properties():
                     props.add(prop.name)
             resultados["propiedades_clase"][clase.name] = list(props)
-            resultados["subclases"].extend([s.name for s in clase.subclases()])
+            resultados["subclases"].extend([s.name for s in clase.subclasses()])
             resultados["instancias_clase"][clase.name] = [i.name for i in clase.instances()]
 
         for sub in clase.subclasses():
@@ -98,10 +98,12 @@ def buscar():
         if(resultados["descripcion_dbpedia"] == ''):
             resultados["descripcion_dbpedia"] = consultar_dbpedia(consulta_original, idioma)
         
-        # Traducir campos específicos
-        traducir_campos_resultados(resultados, idioma)
 
-    resultados = traducir_valores(resultados, idioma)
+    if idioma != 'es':
+        try:
+            resultados = traducir_valores_ontologia(resultados, idioma)
+        except Exception as e:
+            print(f"Error al traducir resultados: {e}")
         
     return jsonify(resultados)
 
@@ -111,7 +113,7 @@ def _procesar_resultados_dbpedia(resultadosDbpedia, idioma, resultados):
     # Traducir descripción
     abstract = resultadosDbpedia.get("abstract", "")
     if abstract:
-        resultados["descripcion_dbpedia"] = traducir_texto(abstract, 'auto', idioma)
+        resultados["descripcion_dbpedia"] = traducir_texto(abstract, 'en', idioma)
 
     # Campos que no necesitan traducción
     resultados["pais"] = resultadosDbpedia.get("country", "")
