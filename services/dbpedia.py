@@ -1,5 +1,6 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 from utils.text_utils import normalizar_nombre
+from deep_translator import GoogleTranslator
 import json
 
 
@@ -132,7 +133,14 @@ def obtener_info_productos(resource_url):
     return data
 
 def consultar_datos_poblados(consulta, idioma):
-    from deep_translator import GoogleTranslator
+    try:
+        consulta_normalizada = normalizar_nombre(consulta)
+        consulta_traducida = normalizar_nombre(
+            GoogleTranslator(source=idioma, target='en').translate(consulta)
+        )
+    except Exception as e:
+        print(f"Error al traducir la consulta: {e}")
+        consulta_traducida = consulta_normalizada
 
     with open("data/productos_cake.json", "r", encoding="utf-8") as archivo:
         productos = json.load(archivo)
@@ -140,13 +148,16 @@ def consultar_datos_poblados(consulta, idioma):
     for producto in productos:
         nombre_normalizado = normalizar_nombre(producto["nombre"])
         tipo_normalizado = normalizar_nombre(producto["tipo"].split("/")[-1])
-        consulta_normalizada = normalizar_nombre(consulta)
 
-        nombre_traducido = normalizar_nombre(GoogleTranslator(source=idioma, target='en').translate(producto["nombre"]))
-        tipo_traducido = normalizar_nombre(GoogleTranslator(source=idioma, target='en').translate(producto["tipo"].split("/")[-1]))
-
-        if consulta_normalizada == nombre_normalizado or consulta_normalizada == nombre_traducido:
-             return {**obtener_info_productos(producto["producto"]), "nombre": producto['nombre']}
-
-        if consulta_normalizada == tipo_normalizado or consulta_normalizada == tipo_traducido:
-            return obtener_info_productos(producto["tipo"])
+        if (
+            consulta_normalizada in [nombre_normalizado, tipo_normalizado] or
+            consulta_traducida in [nombre_normalizado, tipo_normalizado]
+        ):
+            if consulta_normalizada in nombre_normalizado or consulta_traducida in nombre_normalizado:
+                return {
+                    **obtener_info_productos(producto["producto"]),
+                    "nombre": producto["nombre"]
+                }
+            else:
+                return obtener_info_productos(producto["tipo"])
+    return None

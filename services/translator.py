@@ -1,13 +1,6 @@
 from deep_translator import GoogleTranslator
-import re
+from utils.text_utils import normalizar_nombre
 
-def normalizar_nombre(nombre):
-    nombre = nombre.replace("_", " ")
-    nombre = re.sub(r'(\w):(\w)', r'\1 : \2', nombre)
-    nombre = re.sub(r'(\w):', r'\1 :', nombre)
-    nombre = re.sub(r':(\w)', r': \1', nombre)  
-    nombre = re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', nombre)
-    return nombre.lower().strip()
 
 def traducir_valores(data, idioma_destino):
     """
@@ -53,22 +46,6 @@ def traducir_texto(texto, idioma_origen, idioma_destino):
         print(f"Error traduciendo texto: {e}")
         return texto
 
-def traducir_campos_resultados(resultados, idioma):
-    """Traduce campos específicos de los resultados del español al idioma destino"""
-    if idioma == 'es':
-        return
-    
-    campos_a_traducir = ["descripcion_dbpedia", "valores"]
-    
-    for campo in campos_a_traducir:
-        if campo in resultados and resultados[campo]:
-            if isinstance(resultados[campo], str):
-                resultados[campo] = traducir_texto(resultados[campo], 'es', idioma)
-            elif isinstance(resultados[campo], list):
-                resultados[campo] = [
-                    traducir_texto(texto, 'es', idioma)
-                    for texto in resultados[campo]
-                ]
     
 def traducir_consulta_si_necesario(consulta_original, idioma):
     """Traduce la consulta al español si no está en español"""
@@ -96,7 +73,6 @@ def traducir_valores_ontologia(resultados, idioma_destino):
             # Traducimos el nombre completo
             traducido = GoogleTranslator(source='es', target=idioma_destino).translate(nombre_limpio)
             
-            print(traducido)
             
             # Si el original tenía guiones bajos, los mantenemos
             if '_' in nombre:
