@@ -6,63 +6,74 @@ body {
   background-position: top center;
   height: 100vh;
 }
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
 header {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 15px;
+  transition: transform 0.2s ease;
 }
+header:hover {
+  transform: scale(1.005);
+}
+
 .logo {
-  width: 130px;
-  height: 140px;
+  width: 8.2rem;
+  height: 8.8rem;
 }
-@media (max-width: 1024px) {
-  .logo {
-    width: 95px;
-    height: 100px;
-  }
-}
+
 .title {
-  width: 490px;
-  height: 80px;
+  width: 30.6rem;
+  height: 5rem;
 }
-@media (max-width: 1024px) {
-  .title {
-    width: 290px;
-    height: 55px;
-  }
-}
+
 .search-form {
   display: flex;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.8);
   border: 2px solid #7c4a3b;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(255, 127, 127, 0.311);
   max-width: 800px;
   width: 90%;
+  transition: all 0.3s ease;
 }
+.search-form:hover {
+  transform: scale(1.002);
+  border-color: #512c20;
+}
+
 .search-form input[type="text"] {
   border: none;
   outline: none;
   background-color: transparent;
   padding: 12px;
-  font-size: 14px;
+  font-size: 0.9rem;
   border-radius: 6px 0 0 6px;
   width: 100%;
 }
+
 .search-form .language select {
-  padding: 12px;
-  font-size: 14px;
+  padding: 0.75rem;
+  font-size: 0.9rem;
   background: transparent;
   outline: none;
+  transition: background-color 0.3s ease;
 }
+.search-form .language select:hover {
+  transform: scale(1.01);
+}
+
 .search-form button {
   background-color: #7c4a3b;
   border: none;
@@ -71,11 +82,49 @@ header {
   border-radius: 0 6px 6px 0;
   display: flex;
   align-items: center;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
+
+.search-form button:hover {
+  background-color: #7c4a3b;
+  transform: scale(1.01);
+  box-shadow: 0 4px 8px rgba(124, 74, 59, 0.2);
+}
+
+.search-form button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background-color: #7c4a3b;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.6s ease, height 0.6s ease;
+}
+
+.search-form button:hover::before {
+  width: 100px;
+  height: 100px;
+  background-color: #512c20;
+  opacity: 0.2;
+}
+
 .search-form button img {
   width: 50px;
   height: 30px;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
 }
+
+.search-form button:hover img {
+  transform: rotate(15deg) scale(1.1);
+}
+
 .language-select {
   border-left: 2px solid #7c4a3b;
   border-top: none;
@@ -88,12 +137,20 @@ header {
   font-size: 14px;
   color: #7c4a3b;
   box-sizing: border-box;
-  width: 120px;
+  width: 115px;
+  transition: all 0.3s ease;
 }
+
+.language-select:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #512c20;
+}
+
 .language {
   position: relative;
   display: inline-block;
 }
+
 .language::after {
   content: "▼";
   position: absolute;
@@ -103,7 +160,9 @@ header {
   color: #7c4a3b;
   pointer-events: none;
   font-size: 14px;
+  transition: transform 0.3s ease;
 }
+
 .modal {
   position: relative;
   margin-top: 15px;
@@ -119,10 +178,13 @@ header {
   height: auto;
   overflow-y: auto;
   z-index: 10;
+  transition: all 0.3s ease;
 }
+
 .modal.show {
   display: block;
 }
+
 .modal-content h3 {
   margin-top: 10px;
   color: #7c4a3b;
@@ -132,9 +194,6 @@ header {
 }
 .modal-content li {
   margin-bottom: 5px;
-}
-.modal.show {
-  display: block;
 }
 .hidden {
   display: none;
@@ -156,13 +215,12 @@ header {
   width: 48px;
   height: 48px;
   border: 5px solid #fff;
-  border-bottom-color: #ff3d00;
+  border-bottom-color: #ff7349;
   border-radius: 50%;
   display: inline-block;
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
 }
-
 @keyframes rotation {
   0% {
     transform: rotate(0deg);
@@ -172,7 +230,89 @@ header {
   }
 }
 
-/* Para mostrar el loader */
 .loader-container.active {
   display: flex;
+  animation: fadeIn 0.3s ease-in;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 7rem;
+    height: 7.5rem;
+  }
+  .title {
+    width: 21.2rem;
+    height: 4.2rem;
+  }
+  .search-form {
+    width: 95%;
+  }
+  .search-form input[type="text"] {
+    font-size: 1rem;
+    padding: 14px;
+  }
+  .language-select {
+    width: 100px;
+    font-size: 1rem;
+  }
+  .search-form button img {
+    width: 45px;
+    height: 30px;
+  }
+  .modal {
+    width: 95%;
+    padding: 15px;
+    max-height: 65dvh;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background-image: url("../img/backgroundMobile.webp");
+    background-repeat: no-repeat;
+    min-height: 100dvh;
+  }
+  .logo {
+    width: 11.5rem;
+    height: 11rem;
+  }
+  .title {
+    width: 36rem;
+    height: 7rem;
+  }
+  .search-form {
+    width: 100%;
+  }
+  .search-form input[type="text"] {
+    font-size: 1.5rem;
+  }
+  .language-select {
+    width: 115px;
+    font-size: 1.5rem;
+  }
+  .search-form button img {
+    width: 45px;
+    height: 40px;
+  }
+  .modal-content h3 {
+    font-size: 1.7rem;
+  }
+  .modal-content ul {
+    font-size: 1.5rem;
+  }
+  .modal-content li {
+    font-size: 1.5rem;
+  }
+  .modal {
+    max-height: 80dvh;
+    padding: 20px 40px;
+  }
 }
