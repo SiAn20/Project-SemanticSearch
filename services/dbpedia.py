@@ -41,7 +41,6 @@ def consultar_dbpedia(termino, idioma):
     return "No results found in DBpedia."
 
 
-
 def obtener_productos():
     sparql = SPARQLWrapper("https://dbpedia.org/sparql")
     sparql.setReturnFormat(JSON)
